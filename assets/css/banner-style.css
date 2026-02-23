@@ -1,0 +1,177 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/StandardBackground.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fondo estático */
+    padding-top: 80px; /* Espacio para que el contenido no quede bajo la navbar fija */
+}
+
+/* --- NAVBAR FIJA --- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #345EF8, #4870ff);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 70px;
+    border-bottom: 4px solid #ff69b4;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(2px 2px 0px #fff);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li {
+    height: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.2s;
+}
+
+/* Icono local en el menú */
+.navbar ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botón Events destacado */
+.navbar ul li:last-child a {
+    background-color: #ff69b4;
+    font-size: 1.6rem;
+    padding: 0 30px;
+}
+
+/* --- CONTENEDOR DE BANNERS --- */
+.banners-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 40px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.banner-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Base para el posicionamiento absoluto de los badges */
+}
+
+/* --- PERSONAJES Y ALINEACIÓN --- */
+.character-display {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Altura controlada */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-char {
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    margin: 0 -45px; /* Superpone un poco a las chicas */
+}
+
+.chibi-char {
+    height: 240px;
+    z-index: 2;
+    object-fit: contain;
+    margin: 0 10px;
+}
+
+/* --- BADGES (MUST PULL / AWFUL) --- */
+.status-badge {
+    position: absolute;
+    z-index: 10; /* Por encima de los personajes */
+    top: 0;
+    pointer-events: none; /* Para que no estorbe si hay clics */
+}
+
+.status-badge img {
+    max-width: 350px;
+}
+
+/* Ajuste específico para que AWFUL tape a las chibis como en la foto */
+.support-scout .status-badge {
+    top: 40px; 
+    transform: rotate(-3deg);
+}
+
+.pretty-scout .status-badge {
+    top: -10px;
+}
+
+/* --- BANNERS INFERIORES --- */
+.banner-footer {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-footer img {
+    width: 90%;
+    max-width: 480px;
+    border-radius: 15px;
+    border: 5px solid white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* --- FOOTER --- */
+.main-footer {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-weight: bold;
+}

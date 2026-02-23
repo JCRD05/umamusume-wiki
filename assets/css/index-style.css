@@ -1,0 +1,172 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/bg-racetrack.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fondo estático */
+    padding-top: 80px; /* Espacio para que el contenido no quede bajo la navbar fija */
+}
+
+/* --- NAVBAR FIJA --- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #345EF8, #4870ff);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 70px;
+    border-bottom: 4px solid #ff69b4;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(2px 2px 0px #fff);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li {
+    height: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.2s;
+}
+
+/* Icono local en el menú */
+.navbar ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botón Events destacado */
+.navbar ul li:last-child a {
+    background-color: #ff69b4;
+    font-size: 1.6rem;
+    padding: 0 30px;
+}
+
+/* --- SECCIÓN PRINCIPAL (Contenedor Maestro) --- */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 150px);
+    padding: 20px;
+    perspective: 1000px; /* Mejora el renderizado de capas */
+}
+
+.welcome-card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Empuja la caja blanca a la derecha */
+    width: 1000px; /* Ancho fijo para mantener la proporción */
+    position: relative;
+    margin-top: 50px;
+}
+
+/* Mihono Bourbon: Grande y Superpuesta */
+.character-container {
+    position: absolute;
+    left: -180px; /* La sacamos hacia la izquierda */
+    bottom: -50px; /* La bajamos un poco para que sobresalga del cuadro */
+    z-index: 10;
+}
+
+.hero-character {
+    width: 620px; /* Tamaño ideal para que se vea como en la foto original */
+    height: auto;
+    display: block;
+    filter: drop-shadow(15px 10px 15px rgba(0,0,0,0.3));
+}
+
+/* Caja de contenido (Burbuja de texto) */
+.content-container {
+    width: 750px; /* Ancho de la caja blanca */
+    background-color: white;
+    border: 10px solid #76c900; 
+    border-radius: 60px; 
+    padding: 80px 50px 50px 180px; /* 180px a la izquierda para dejar ver a Bourbon */
+    position: relative;
+    z-index: 1; /* Por debajo de Bourbon */
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+/* Rectángulo "Welcome!" (Arreglado) */
+.welcome-header {
+    position: absolute;
+    top: -45px; /* Mitad sobre el borde verde */
+    left: 0px;
+    z-index: 20; /* La capa más alta de todas */
+}
+
+.welcome-label {
+    background-color: #76c900;
+    color: white;
+    font-size: 2.6rem;
+    font-weight: 900;
+    padding: 10px 60px;
+    border-radius: 35px;
+    display: block;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.1);
+}
+
+/* Texto Marrón Principal */
+.welcome-text p {
+    color: #8b5a2b; 
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+}
+/* Ajuste para el Footer para que no estorbe */
+.main-footer {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 0.9rem;
+    background: rgba(0,0,0,0.2); /* Un fondo ligero ayuda a leerlo sobre el pasto */
+}
