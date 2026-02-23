@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uma-Wiki | Supports</title>
+    <link rel="stylesheet" href="/assets/css/supports-style.css">
 </head>
 <body>
     <header>
@@ -23,30 +24,26 @@
     </header>
 
     <main>
-        <section class="page-intro">
-            <div class="intro-card">
-                <div class="label-wrapper">
-                    <span class="welcome-label">Support Database</span>
-                </div>
-                <div class="text-content">
-                    <h1>Support Cards</h1>
-                    <p>Browse through the complete database of Support Cards for Umamusume: Pretty Derby. Filter by type, rarity, and tier to find the perfect supplements for your training sessions and maximize your strategy.</p>
+        <section class="page-header">
+            <div class="title-ribbon">
+                <h1>Support Cards</h1>
+            </div>
+            
+            <div class="table-controls">
+                <div class="search-group">
+                    <select class="sort-dropdown">
+                        <option value="default">Sort By: Default</option>
+                        <option value="rarity">Rarity</option>
+                        <option value="tier">Tier</option>
+                    </select>
+                    <input type="text" class="search-input" placeholder="Search Support Cards...">
+                    <button type="button" class="search-btn">Search 🔍</button>
                 </div>
             </div>
         </section>
 
-        <section class="table-controls">
-            <div class="search-bar">
-                <input type="text" placeholder="Search Support Cards...">
-                <button type="button" class="search-btn">Search</button>
-            </div>
-            <div class="filter-dropdown">
-                <select name="sort" id="sort-select">
-                    <option value="default">Sort By: Default</option>
-                    <option value="rarity">Rarity</option>
-                    <option value="tier">Tier</option>
-                </select>
-            </div>
+        <section class="page-description">
+            <p>Browse through the complete database of Support Cards for Umamusume: Pretty Derby. Filter by type, rarity, and tier to find the perfect supplements for your training sessions and maximize your strategy.</p>
         </section>
 
         <section class="data-table-container">
@@ -129,7 +126,8 @@
                         </td>
                         <td>SSR</td>
                         <td><span class="tier-badge ss">SS</span></td>
-                    </tbody>
+                    </tr>
+                </tbody>
             </table>
         </section>
     </main>

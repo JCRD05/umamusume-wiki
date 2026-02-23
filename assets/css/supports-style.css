@@ -1,0 +1,259 @@
+/* --- CONFIGURACIÓN GENERAL --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/bg-standard.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 80px; 
+}
+
+/* --- NAVBAR FIJA UNIFICADA --- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #345EF8, #4870ff);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 70px; 
+    border-bottom: 4px solid #ff69b4;
+}
+
+.logo img { 
+    height: 50px; 
+    filter: drop-shadow(2px 2px 0px #fff); 
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li { 
+    height: 100%; 
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.2s;
+}
+
+/* Icono de herradura en el menú */
+.navbar ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Efecto Hover Traslúcido */
+.navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botón Events destacado con fondo rosa */
+.navbar ul li:last-child a {
+    background-color: #ff69b4;
+    font-size: 1.6rem;
+    padding: 0 30px;
+}
+
+/* --- CABECERA: RIBBON Y BARRA INTEGRADA --- */
+.page-header {
+    width: 100%;
+    max-width: 1150px;
+    margin: 40px auto 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.title-ribbon {
+    background-color: #ff9d00; 
+    color: white;
+    padding: 12px 60px 12px 30px;
+    clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+.title-ribbon h1 {
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: 900;
+}
+
+/* BARRA DE BÚSQUEDA "CÁPSULA INTEGRADA" */
+.search-group {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 2px 2px 2px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.sort-dropdown {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    color: #333;
+    outline: none;
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    height: 100%;
+    cursor: pointer;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 0 15px;
+    width: 250px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    background: transparent;
+}
+
+.search-btn {
+    background: #ff9d00;
+    color: white;
+    border: none;
+    height: 100%;
+    padding: 0 25px;
+    border-radius: 40px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search-btn:hover { filter: brightness(1.1); }
+
+/* --- TEXTO DESCRIPTIVO --- */
+.page-description {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto 30px auto;
+    padding: 0 45px;
+}
+
+.page-description p {
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600;
+    max-width: 850px;
+    line-height: 1.4;
+}
+
+/* --- CONTENEDOR CÁPSULA BLANCA --- */
+.data-table-container {
+    background-color: white;
+    width: 92%;
+    max-width: 1100px;
+    margin: 0 auto 50px auto;
+    border: 2px solid #ffcc80; 
+    border-radius: 100px;
+    padding: 60px;
+}
+
+.supports-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.supports-table th {
+    text-align: left;
+    color: #8b5a2b; 
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+}
+
+.supports-table td {
+    padding: 20px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.table-img {
+    width: 65px;
+    height: 85px; 
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+    border: 2px solid #ff9d00;
+}
+
+.cell-flex {
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    display: block;
+    font-weight: 800;
+    color: #8b5a2b;
+    font-size: 1.2rem;
+}
+
+.desc {
+    font-size: 0.9rem;
+    color: #777;
+    font-weight: 600;
+}
+
+/* BADGES DE TIER */
+.tier-badge {
+    padding: 6px 15px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    display: inline-block;
+    min-width: 45px;
+    text-align: center;
+}
+.tier-badge.ss { background-color: #ff4d4d; }
+.tier-badge.s  { background-color: #ffae42; }
+.tier-badge.a  { background-color: #4da6ff; }
+
+/* FOOTER */
+.main-footer {
+    text-align: center;
+    padding: 40px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
