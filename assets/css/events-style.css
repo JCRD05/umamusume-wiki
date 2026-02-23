@@ -1,0 +1,216 @@
+/* Configuración General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('/assets/images/bg-standard.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fondo estático */
+    padding-top: 80px; /* Espacio para que el contenido no quede bajo la navbar fija */
+}
+
+/* --- NAVBAR FIJA --- */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #345EF8, #4870ff);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    height: 70px;
+    border-bottom: 4px solid #ff69b4;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(2px 2px 0px #fff);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar ul li {
+    height: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 0 20px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: 0.2s;
+}
+
+/* Icono local en el menú */
+.navbar ul li a::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Botón Events destacado */
+.navbar ul li:last-child a {
+    background-color: #ff69b4;
+    font-size: 1.6rem;
+    padding: 0 30px;
+}
+/* Asegúrate de que el contenedor principal permita el scroll */
+.events-page-container {
+    background-color: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 60px 40px;
+    border: 1px solid #4059ff;
+    border-radius: 120px;
+    /* IMPORTANTE: position relative permite que los hijos se posicionen respecto a esta caja */
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* El banner rosa de arriba */
+.status-ribbon {
+    background: #ff69b4;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    transform: skewX(-15deg);
+    padding: 10px 60px;
+    font-size: 1.8rem;
+    /* Cambia a static o relative para que se mueva con el scroll */
+    position: relative; 
+    margin: -30px auto 30px auto; /* El margen negativo lo sube un poco sobre el borde */
+    z-index: 10;
+}
+
+/* El título verde */
+.event-title-badge {
+    background: #c0df16;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius: 120px;
+    padding: 10px 30px;
+    font-size: 1.4rem;
+    /* Asegura que sea relative */
+    position: relative;
+    align-self: flex-start; /* Lo alinea a la izquierda */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* La imagen del banner */
+.event-banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Asegúrate de que no sea fixed */
+}
+
+.event-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    /* Elimina cualquier position: fixed que pueda tener aquí */
+}
+
+/* --- LISTA DE RECOMPENSAS --- */
+.rewards-list {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rewards-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    font-weight: 600;
+    border-bottom: 1px dashed #ccc;
+}
+
+/* --- ANÁLISIS DE LA CARTA (Dos columnas) --- */
+.reward-analysis {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.analysis-text h4 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.analysis-card-img img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* --- SECCIÓN DE BONOS --- */
+.event-bonuses h5 {
+    color: #ff69b4;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.bonus-content p {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Ajuste de texto general */
+.event-details p {
+    margin-bottom: 15px;
+    color: #444;
+}
+/* Ajuste para el Footer para que no estorbe */
+.main-footer {
+    position: relative;
+    z-index: 20;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 0.9rem;
+    background: rgba(0,0,0,0.2); /* Un fondo ligero ayuda a leerlo sobre el pasto */
+}
