@@ -11,11 +11,10 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Fondo estático */
-    padding-top: 80px; /* Espacio para que el contenido no quede bajo la navbar fija */
+    background-attachment: fixed; 
+    padding-top: 80px;
 }
 
-/* --- NAVBAR FIJA --- */
 header {
     position: fixed;
     top: 0;
@@ -63,7 +62,6 @@ header {
     transition: 0.2s;
 }
 
-/* Icono local en el menú */
 .navbar ul li a::before {
     content: "";
     display: inline-block;
@@ -80,13 +78,12 @@ header {
     background: rgba(255, 255, 255, 0.1);
 }
 
-/* Botón Events destacado */
 .navbar ul li:last-child a {
     background-color: #ff69b4;
     font-size: 1.6rem;
     padding: 0 30px;
 }
-/* Asegúrate de que el contenedor principal permita el scroll */
+
 .events-page-container {
     background-color: white;
     max-width: 900px;
@@ -94,14 +91,12 @@ header {
     padding: 60px 40px;
     border: 1px solid #4059ff;
     border-radius: 120px;
-    /* IMPORTANTE: position relative permite que los hijos se posicionen respecto a esta caja */
     position: relative; 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* El banner rosa de arriba */
 .status-ribbon {
     background: #ff69b4;
     color: white;
@@ -111,13 +106,11 @@ header {
     transform: skewX(-15deg);
     padding: 10px 60px;
     font-size: 1.8rem;
-    /* Cambia a static o relative para que se mueva con el scroll */
     position: relative; 
-    margin: -30px auto 30px auto; /* El margen negativo lo sube un poco sobre el borde */
+    margin: -30px auto 30px auto; 
     z-index: 10;
 }
 
-/* El título verde */
 .event-title-badge {
     background: #c0df16;
     color: white;
@@ -127,19 +120,17 @@ header {
     border-radius: 120px;
     padding: 10px 30px;
     font-size: 1.4rem;
-    /* Asegura que sea relative */
     position: relative;
-    align-self: flex-start; /* Lo alinea a la izquierda */
+    align-self: flex-start; 
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-/* La imagen del banner */
 .event-banner {
     width: 100%;
     margin: 0;
     padding: 0;
-    position: relative; /* Asegúrate de que no sea fixed */
+    position: relative;
 }
 
 .event-banner img {
@@ -147,10 +138,8 @@ header {
     height: auto;
     display: block;
     border-radius: 15px;
-    /* Elimina cualquier position: fixed que pueda tener aquí */
 }
 
-/* --- LISTA DE RECOMPENSAS --- */
 .rewards-list {
     list-style: none;
     max-width: 600px;
@@ -165,7 +154,6 @@ header {
     border-bottom: 1px dashed #ccc;
 }
 
-/* --- ANÁLISIS DE LA CARTA (Dos columnas) --- */
 .reward-analysis {
     display: flex;
     gap: 20px;
@@ -187,7 +175,6 @@ header {
     box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
 }
 
-/* --- SECCIÓN DE BONOS --- */
 .event-bonuses h5 {
     color: #ff69b4;
     font-size: 1.2rem;
@@ -199,12 +186,10 @@ header {
     color: #333;
 }
 
-/* Ajuste de texto general */
 .event-details p {
     margin-bottom: 15px;
     color: #444;
 }
-/* Ajuste para el Footer para que no estorbe */
 .main-footer {
     position: relative;
     z-index: 20;
@@ -212,5 +197,5 @@ header {
     padding: 20px;
     color: white;
     font-size: 0.9rem;
-    background: rgba(0,0,0,0.2); /* Un fondo ligero ayuda a leerlo sobre el pasto */
+    background: rgba(0,0,0,0.2);
 }
