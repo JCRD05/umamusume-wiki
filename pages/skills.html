@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uma-Wiki | Skills</title>
+    <link rel="stylesheet" href="/assets/css/skills-style.css">
 </head>
 <body>
     <header>
@@ -27,16 +28,22 @@
             <div class="title-ribbon">
                 <h1>Skills</h1>
             </div>
-            <h2 class="sub-title">Trainee skills</h2>
             
             <div class="table-controls">
-                <div class="search-group">
+                <div class="search-bar">
                     <select class="sort-dropdown">
-                        <option>Sort By: Default</option>
+                        <option value="default">Sort By: Default</option>
+                        <option value="type">Type</option>
+                        <option value="tier">Tier</option>
                     </select>
-                    <button class="search-btn">Search 🔍</button>
+                    <input type="text" placeholder="Search Skills...">
+                    <button type="button" class="search-btn">Search 🔍</button>
                 </div>
             </div>
+        </section>
+
+        <section class="page-description">
+            <p>Explore the complete list of Umamusume skills. Master the different types of active and passive abilities to gain the edge in every race.</p>
         </section>
 
         <section class="data-container">
@@ -107,20 +114,18 @@
                         <td><span class="tier-badge a">A</span></td>
                     </tr>
                     <tr>
-                        <tr>
-                            <td>5</td>
-                            <td>
-                                <div class="cell-flex">
-                                    <img src="/assets/images/curvature.png" alt="Curvature Professor" class="table-img">
-                                    <div class="details">
-                                        <span class="name">Curvature Professor</span>
-                                        <span class="desc">Greatly increases speed during corners.</span>
-                                    </div>
+                        <td>5</td>
+                        <td>
+                            <div class="cell-flex">
+                                <img src="/assets/images/curvature.png" alt="Curvature Professor" class="table-img">
+                                <div class="details">
+                                    <span class="name">Curvature Professor</span>
+                                    <span class="desc">Greatly increases speed during corners.</span>
                                 </div>
-                            </td>
-                            <td>Active</td>
-                            <td><span class="tier-badge ss">SS</span></td>
-                        </tr>
+                            </div>
+                        </td>
+                        <td>Active</td>
+                        <td><span class="tier-badge ss">SS</span></td>
                     </tr>
                 </tbody>
             </table>
