@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/assets/images/StandardBackground.jpeg');
+    background-image: url('/assets/images/bg-standard.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -87,12 +87,11 @@ header {
     padding: 0 30px;
 }
 
-/* --- CONTENEDOR DE BANNERS --- */
+/* --- CONTENEDO BANNERS --- */
 .banners-wrapper {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 50px;
     padding: 40px 20px;
     max-width: 1400px;
     margin: 0 auto;
@@ -127,7 +126,7 @@ header {
     height: 240px;
     z-index: 2;
     object-fit: contain;
-    margin: 0 10px;
+    margin-left: 100px;
 }
 
 /* --- BADGES (MUST PULL / AWFUL) --- */
@@ -140,12 +139,6 @@ header {
 
 .status-badge img {
     max-width: 350px;
-}
-
-/* Ajuste específico para que AWFUL tape a las chibis como en la foto */
-.support-scout .status-badge {
-    top: 40px; 
-    transform: rotate(-3deg);
 }
 
 .pretty-scout .status-badge {

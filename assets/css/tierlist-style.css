@@ -138,7 +138,7 @@ header {
 /* El Personaje (Oguri Cap) */
 .floating-chibi {
     position: absolute;
-    bottom: -40px;
+    bottom: -100px;
     right: -40px; /* Esto hace que se salga un poco de la caja e invada la imagen de la derecha */
     width: 200px;
     z-index: 5; /* Por encima de la tarjeta pero debajo de la tierlist si fuera necesario */
