@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/assets/images/bg-standard.jpeg');
+    background-image: url('assets/images/bg-standard.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ header {
     width: 22px;
     height: 22px;
     margin-right: 8px;
-    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-image: url('assets/images/UmamusumetaCarratIcon.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
