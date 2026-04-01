@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('/assets/images/bg-standard.jpeg');
+    background-image: url('../assets/images/bg-standard.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@ header {
     width: 22px;
     height: 22px;
     margin-right: 8px;
-    background-image: url('/assets/images/UmamusumetaCarratIcon.png'); 
+    background-image: url('../assets/images/UmamusumetaCarratIcon.png'); 
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,7 +100,7 @@ header {
 }
 
 .title-ribbon {
-    background-color: #ff9d00; 
+    background-color: #7a58ff; 
     color: white;
     padding: 12px 60px 12px 30px;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
@@ -148,7 +148,7 @@ header {
 }
 
 .search-btn {
-    background: #ff9d00;
+    background: #7a58ff;
     color: white;
     border: none;
     height: 100%;
@@ -161,39 +161,23 @@ header {
 
 .search-btn:hover { filter: brightness(1.1); }
 
-/* --- TEXTO DESCRIPTIVO --- */
-.page-description {
-    width: 100%;
-    max-width: 1150px;
-    margin: 0 auto 30px auto;
-    padding: 0 45px;
-}
-
-.page-description p {
-    color: #666;
-    font-size: 1.1rem;
-    font-weight: 600;
-    max-width: 850px;
-    line-height: 1.4;
-}
-
 /* --- CONTENEDOR CÁPSULA BLANCA --- */
-.data-table-container {
+.data-container {
     background-color: white;
     width: 92%;
     max-width: 1100px;
-    margin: 0 auto 50px auto;
-    border: 2px solid #ffcc80; 
+    margin: 30px auto 50px auto;
+    border: 2px solid #a0c4ff; 
     border-radius: 100px;
     padding: 60px;
 }
 
-.supports-table {
+.data-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.supports-table th {
+.data-table th {
     text-align: left;
     color: #8b5a2b; 
     font-weight: 900;
@@ -202,18 +186,18 @@ header {
     border-bottom: 2px solid #eee;
 }
 
-.supports-table td {
+.data-table td {
     padding: 20px 0;
     border-bottom: 1px solid #f5f5f5;
 }
 
 .table-img {
-    width: 65px;
-    height: 85px; 
+    width: 60px;
+    height: 60px;
     object-fit: cover;
-    border-radius: 8px;
-    margin-right: 20px;
-    border: 2px solid #ff9d00;
+    border-radius: 10px;
+    margin-right: 15px;
+    border: 1px solid #ddd;
 }
 
 .cell-flex {
