@@ -138,7 +138,7 @@ header {
     z-index: 5;
 }
 
-.image-column {
+.tierlist-column {
     flex: 1.5;
 }
 
@@ -161,4 +161,19 @@ header {
     padding: 40px;
     color: #666;
     font-weight: bold;
+}
+
+.trainee-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #5d4037;
+}
+
+/* Opcional: Que cambien un poco al pasar el mouse */
+.trainee-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+    cursor: pointer;
 }
