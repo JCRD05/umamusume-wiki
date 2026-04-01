@@ -1,0 +1,314 @@
+[
+    {
+        "tier": "SS",
+        "trainees":
+        [
+            { 
+                "name": "Oguri Cap (Starlight Beat)", 
+                "image": ""
+            },
+            { 
+                "name": "Oguri Cap (Ashen Miracle)", 
+                "image": "../assets/images/oguri-cap-christmas-icon.png"
+            },
+            { 
+                "name": "Seiun Sky (Reeling in the Big One)", 
+                "image": ""
+            },
+            { 
+                "name": "Maruzensky (Hot☆Summer Night)", 
+                "image": ""
+            },
+            { 
+                "name": "Taiki Shuttle (Wild Frontier)", 
+                "image": ""
+            },
+            { 
+                "name": "Mihono Bourbon (CODE: ICING)", 
+                "image": ""
+            },
+            { 
+                "name": "Kitasan Black (Gilded Shrine to Glory)", 
+                "image": ""
+            }
+        ]
+    },
+    {
+        "tier": "S",
+        "trainees":
+        [
+            { 
+                "name": "Silence Suzuka (Innocent Silence)", 
+                "image": ""
+            },
+            { 
+                "name": "Maruzensky (Formula R)", 
+                "image": ""
+            },
+            { 
+                "name": "Mayano Top Gun (Scramble Zone)", 
+                "image": ""
+            },
+            { 
+                "name": "Manhattan Cafe (Creeping Shadow)", 
+                "image": ""
+            },
+            { 
+                "name": "Narita Taishin (Nevertheless)", 
+                "image": "" 
+            },
+            { 
+                "name": "Tamamo Cross (Fast as Lightning)", 
+                "image": ""
+            },
+            { 
+                "name": "Gold Ship (Red Strife)", 
+                "image": ""
+            },
+            { 
+                "name": "Sakura Bakushin O (Blossom in Learning)", 
+                "image": ""
+            },
+            { 
+                "name": "El Condor Pasa (El Numero 1)", 
+                "image": ""
+            },
+            { 
+                "name": "Mayano Top Gun (Sunlight Bouquet)", 
+                "image": "../assets/images/mayano-topgun.png"
+            },
+            { 
+                "name": "Symboli Rudolf (Emperor's Path)", 
+                "image": ""
+            },
+            { 
+                "name": "Mejiro Ryan (Down the Line)", 
+                "image": ""
+            },
+            { 
+                "name": "Mejiro Dober (Off the Line)", 
+                "image": ""
+            },
+            { 
+                "name": "Mejiro McQueen (Frontline Elegance)", 
+                "image": ""
+            },
+            { 
+                "name": "Super Creek (Murmuring Stream)", 
+                "image": ""
+            },
+            { 
+                "name": "Special Week (Hopp'n♪Happy Heart)", 
+                "image": ""
+            },
+            { 
+                "name": "Grass Wonder (Stone-Piercing Blue)", 
+                "image": ""
+            },
+            { 
+                "name": "Smart Falcon (LOVE☆4EVER)", 
+                "image": ""
+            },
+            { 
+                "name": "Meisho Doto (Turbulent Blue)", 
+                "image": ""
+            },
+            { 
+                "name": "Daiwa Scarlet (Peak Blue)", 
+                "image": ""
+            },
+            { 
+                "name": "Agnes Tachyon (Tach-nology)", 
+                "image": ""
+            },
+            { 
+                "name": "Special Week (Special Dreamer)", 
+                "image": ""
+            },
+            { 
+                "name": "Tokai Teio (Peak Joy)", 
+                "image": ""
+            },
+            { 
+                "name": "Vodka (Wild Top Gear)", 
+                "image": ""
+            },
+            { 
+                "name": "Agnes Digital (Full-Color Fangirling)",
+                "image": ""
+            },
+            { 
+                "name": "Tokai Teio (Beyond the Horizon)",
+                "image": ""
+            },
+            { 
+                "name": "T.M. Opera O (New Year, Same Radiance!)",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "tier": "A",
+        "trainees":
+        [
+            { 
+                "name": "Mejiro Bright (Brunissage Line)",
+                "image": ""
+            },
+            { 
+                "name": "Satono Diamond (Natural Brilliance)",
+                "image": ""
+            },
+            { 
+                "name": "Hishi Amazon (Azure Amazon)",
+                "image": ""
+            },
+            { 
+                "name": "El Condor Pasa (Kukulkan Warrior)",
+                "image": ""
+            },
+            { 
+                "name": "Symboli Rudolf (Archer by Moonlight)",
+                "image": ""
+            },
+            { 
+                "name": "T.M. Opera O (O Sole Suo!)",
+                "image": ""
+            },
+            { 
+                "name": "Narita Brian (Maverick)",
+                "image": ""
+            },
+            { 
+                "name": "Nice Nature (Poinsettia Ribbon)",
+                "image": ""
+            },
+            { 
+                "name": "Mejiro Ardan (Crystalline)",
+                "image": ""
+            },
+            { 
+                "name": "Biwa Hayahide (Rouge Caroler)",
+                "image": ""
+            },
+            { 
+                "name": "Rice Shower (Rosy Dreams)",
+                "image": ""
+            },
+            { 
+                "name": "Rice Shower (Vampire Makeover!)",
+                "image": ""
+            },
+            { 
+                "name": "Fuji Kiseki (Shooting Star Revue)",
+                "image": ""
+            },
+            { 
+                "name": "Mihono Bourbon (MB-19890425)",
+                "image": ""
+            },
+            { 
+                "name": "Matikanetannhauser (Mambo)",
+                "image": ""
+            },
+            { 
+                "name": "Matikane Fukukitaru (Lucky Tidings)",
+                "image": ""
+            },
+            { 
+                "name": "Eishin Flash (Meisterschaft)",
+                "image": ""
+            },
+            { 
+                "name": "Fine Motion (Noble Seamair)",
+                "image": ""
+            },
+            { 
+                "name": "Gold City (Authentic / 1928)",
+                "image": ""
+            },
+            { 
+                "name": "Air Groove (Empress Road)",
+                "image": ""
+            },
+            { 
+                "name": "Curren Chan (Fille Éclair)",
+                "image": ""
+            },
+            { 
+                "name": "Air Groove (Quercus Civilis)",
+                "image": ""
+            },
+            { 
+                "name": "Hishi Akebono (Buono☆Alla Moda)",
+                "image": ""
+            },
+            { 
+                "name": "Grass Wonder (Saintly Jade Cleric)",
+                "image": ""
+            },
+            { 
+                "name": "Mejiro McQueen (End of the Skies)",
+                "image": ""
+            },
+            { 
+                "name": "Winning Ticket (Get to Winning!)",
+                "image": ""
+            },
+            { 
+                "name": "Haru Urara (New Year ♪ New Urara!)",
+                "image": ""
+            },
+            { 
+                "name": "Sakura Chiyono O (Strength in Full Bloom)",
+                "image": ""
+            },
+            { 
+                "name": "Eishin Flash (Precise Chocolatier)",
+                "image": ""
+            },
+            { 
+                "name": "Admire Vega (Starry Nocturne)",
+                "image": ""
+            }
+        ]
+    },
+    {
+        "tier": "B",
+        "trainees":
+        [
+            { 
+                "name": "Tosen Jordan (Jokester ☆ Vibes)",
+                "image": ""
+            },
+            { 
+                "name": "Gold City (Autumn Cosmos)",
+                "image": ""
+            },
+            { 
+                "name": "Kawakami Princess (Princess of Pink)",
+                "image": ""
+            },
+            { 
+                "name": "Matikane Fukukitaru (Rising Fortune)",
+                "image": ""
+            },
+            { 
+                "name": "Super Creek (Chiffon-Wrapped Mummy)",
+                "image": ""
+            },
+            { 
+                "name": "Haru Urara (Bestest Prize)",
+                "image": ""
+            },
+            { 
+                "name": "King Halo (King of Emeralds)",
+                "image": ""
+            },
+            { 
+                "name": "Biwa Hayahide (pf. Winning Equation...)",
+                "image": ""
+            }
+        ]
+    }
+]
