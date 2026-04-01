@@ -11,10 +11,11 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     padding-top: 80px;
 }
 
+/* --- NAVBAR FIJA --- */
 header {
     position: fixed;
     top: 0;
@@ -166,6 +167,96 @@ header {
     color: black;
     margin-bottom: 10px;
     font-size: 1.1rem;
+}
+
+.score-evaluation-container {
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.evaluation-table {
+    width: 100%;
+    max-width: 600px;
+    background-color: #f8f8f8; /* Azul muy oscuro para el fondo */
+    color: white;
+    border-collapse: collapse;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(52, 94, 248, 0.2);
+}
+
+.table-main-title {
+    background: #345EF8;
+    padding: 15px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.rank-header th {
+    background-color:#a3b7ff;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #ff2bf8; /* Tu rosa */
+    text-align: center;
+}
+
+.rank-scores td {
+    color:#1a1a2e;
+    background-color: #f8f8f8;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 800;
+    border-bottom: 1px solid #345EF8;
+}
+
+.section-divider td {
+    background-color: #c0df16;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #000000; /* El verde lima de tus botones */
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    border-top: 1px solid #345EF8;
+    border-bottom: 1px solid #345EF8;
+}
+
+.evaluation-table td {
+    color: #000000;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.points-cell {
+    text-align: right;
+    font-weight: bold;
+    color: #ff41a0;
+}
+
+/* Indicadores de Stats */
+.stat-box {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.speed { background: #00d2ff; }
+.stamina { background: #ff4b2b; }
+.power { background: #ffb400; }
+.guts { background: #ff00cc; }
+.wit { background: #00ff88; }
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .evaluation-table {
+        font-size: 0.85rem;
+    }
 }
 
 .analysis-card-img img {
