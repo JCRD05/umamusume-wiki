@@ -2,15 +2,16 @@ document.addEventListener('DOMContentLoaded', () => {
     loadData();
 });
 
-let trainees = [];
+let allTrainees = [];
+let currentTrainees = [];
 const sortSelector = document.querySelector('.sort-dropdown')
 
 sortSelector.addEventListener('change', () => {
     const criteria = sortSelector.value;
 
-    let sortedTrainees = [...trainees];
+    let sortedTrainees = [...currentTrainees];
     if(criteria == 'Sort By: Default') {
-        loadTrainees(trainees);
+        loadTrainees(allTrainees);
         return;
     }
     else if(criteria == 'Sort By: Rarity') {
@@ -29,9 +30,9 @@ const searchButton = document.querySelector('.search-btn')
 searchButton.addEventListener('click', () => {
     const text = searchInput.value.toLowerCase().trim();
 
-    const searchResult = trainees.filter(trainee => trainee.name.toLowerCase().includes(text));
+    currentTrainees = allTrainees.filter(trainee => trainee.name.toLowerCase().includes(text));
 
-    loadTrainees(searchResult);
+    loadTrainees(currentTrainees);
 })
 
 searchInput.addEventListener('keypress', (e) => {
@@ -44,9 +45,9 @@ function loadData(){
     fetch('../data/trainee.json')
         .then(response => response.json())
         .then(data => {
-            trainees = data;
+            allTrainees = data;
 
-            loadTrainees(trainees);
+            loadTrainees(allTrainees);
         })
 }    
 
