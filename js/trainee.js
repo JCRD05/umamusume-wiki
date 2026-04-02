@@ -11,7 +11,7 @@ sortSelector.addEventListener('change', () => {
 
     let sortedTrainees = [...currentTrainees];
     if(criteria == 'Sort By: Default') {
-        loadTrainees(allTrainees);
+        loadTrainees(sortedTrainees);
         return;
     }
     else if(criteria == 'Sort By: Rarity') {
@@ -46,6 +46,7 @@ function loadData(){
         .then(response => response.json())
         .then(data => {
             allTrainees = data;
+            currentTrainees = data;
 
             loadTrainees(allTrainees);
         })

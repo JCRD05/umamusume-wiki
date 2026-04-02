@@ -33,9 +33,9 @@
             <div class="table-controls">
                 <div class="search-group">
                     <select class="sort-dropdown">
-                        <option value="default">Sort By: Default</option>
-                        <option value="rarity">Rarity</option>
-                        <option value="tier">Tier</option>
+                        <option>Sort By: Default</option>
+                        <option>Sort By: Rarity</option>
+                        <option>Sort By: Tier</option>
                     </select>
                     <input type="text" class="search-input" placeholder="Search Support Cards...">
                     <button type="button" class="search-btn">Search 🔍</button>
@@ -51,83 +51,13 @@
             <table class="supports-table">
                 <thead>
                     <tr>
-                        <th>Id</th>
                         <th>Support Card</th>
                         <th>Rarity</th>
                         <th>Tier</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>
-                            <div class="cell-flex">
-                                <img src="../assets/images/support-cards/kitasan-support.png" alt="Kitasan Black" class="table-img">
-                                <div class="details">
-                                    <span class="name">Kitasan Black [The Fire at My Heels]</span>
-                                    <span class="desc">Speed: High specialty priority and Professor of Curvature.</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>SSR</td>
-                        <td><span class="tier-badge ss">SS</span></td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>
-                            <div class="cell-flex">
-                                <img src="../assets/images/support-cards/sakura-support.png" alt="Sakura Chiyono O" class="table-img">
-                                <div class="details">
-                                    <span class="name">Sakura Chiyono O [Peak Sakura]</span>
-                                    <span class="desc">Stamina: Balanced for Long.</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>SSR</td>
-                        <td><span class="tier-badge a">A</span></td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>
-                            <div class="cell-flex">
-                                <img src="../assets/images/support-cards/tazuna-support.png" alt="Tazuna Hayakawa" class="table-img">
-                                <div class="details">
-                                    <span class="name">Tazuna Hayakawa [Reception]</span>
-                                    <span class="desc">Friend: Energy management.</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>SSR</td>
-                        <td><span class="tier-badge s">S</span></td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>
-                            <div class="cell-flex">
-                                <img src="../assets/images/support-cards/tosenjordan-support.png" alt="Tosen Jordan" class="table-img">
-                                <div class="details">
-                                    <span class="name">Tosen Jordan [My Way]</span>
-                                    <span class="desc">Guts: Event reward.</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>SSR</td>
-                        <td><span class="tier-badge a">A</span></td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>
-                            <div class="cell-flex">
-                                <img src="../assets/images/support-cards/finemotion.-support.png" alt="Fine Motion" class="table-img">
-                                <div class="details">
-                                    <span class="name">Fine Motion [Wave of Gratitude]</span>
-                                    <span class="desc">Intelligence: Exceptional training bonuses and "Speed Star" gold skill.</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td>SSR</td>
-                        <td><span class="tier-badge ss">SS</span></td>
-                    </tr>
+                <tbody class="data-body">
+                    
                 </tbody>
             </table>
         </section>
@@ -136,5 +66,6 @@
     <footer class="main-footer">
         <p>© 2026 Uma-Wiki Project | Dedicated to Umamusume fans.</p>
     </footer>
+    <script src="../js/supports.js"></script>
 </body>
 </html>
