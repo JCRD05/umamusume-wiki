@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 let trainees = [];
-
 const sortSelector = document.querySelector('.sort-dropdown')
 
 sortSelector.addEventListener('change', () => {
@@ -22,6 +21,23 @@ sortSelector.addEventListener('change', () => {
         sortedTrainees.sort((a, b) => tiers[a.tier] - tiers[b.tier]);
     }
     loadTrainees(sortedTrainees);
+})
+
+const searchInput = document.querySelector('.search-input')
+const searchButton = document.querySelector('.search-btn')
+
+searchButton.addEventListener('click', () => {
+    const text = searchInput.value.toLowerCase().trim();
+
+    const searchResult = trainees.filter(trainee => trainee.name.toLowerCase().includes(text));
+
+    loadTrainees(searchResult);
+})
+
+searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter'){
+        searchButton.click();
+    }
 })
 
 function loadData(){
@@ -56,7 +72,7 @@ function loadTrainees(trainees) {
             </td>
             <td>${element.rarity}</td>
             <td>${element.tier}</td>`;
-        
+
         tableBody.appendChild(traineeRow);
     });
 }
