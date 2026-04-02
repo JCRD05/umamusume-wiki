@@ -11,7 +11,7 @@ sortSelector.addEventListener('change', () => {
 
     let sortedTrainees = [...currentTrainees];
     if(criteria == 'Sort By: Default') {
-        loadTrainees(sortedTrainees);
+        loadSkills(sortedTrainees);
         return;
     }
     else if(criteria == 'Sort By: Rarity') {
@@ -21,7 +21,7 @@ sortSelector.addEventListener('change', () => {
         const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4};
         sortedTrainees.sort((a, b) => tiers[a.tier] - tiers[b.tier]);
     }
-    loadTrainees(sortedTrainees);
+    loadSkills(sortedTrainees);
 })
 
 const searchInput = document.querySelector('.search-input')
@@ -32,7 +32,7 @@ searchButton.addEventListener('click', () => {
 
     currentTrainees = allTrainees.filter(trainee => trainee.name.toLowerCase().includes(text));
 
-    loadTrainees(currentTrainees);
+    loadSkills(currentTrainees);
 })
 
 searchInput.addEventListener('keypress', (e) => {
@@ -48,11 +48,11 @@ function loadData(){
             allTrainees = data;
             currentTrainees = data;
 
-            loadTrainees(allTrainees);
+            loadSkills(allTrainees);
         })
 }    
 
-function loadTrainees(trainees) {
+function loadSkills(trainees) {
     const tableBody = document.querySelector('.data-body');
 
     if(!tableBody){
