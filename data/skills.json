@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Escape Artist",
+        "image": "../assets/images/skills/gold-speed-skill.png",
+        "description": "Increase ability to go to the front mid-race. (Front Runner)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Possitive"
+    },
+    {
+        "name": "Leader's Pride",
+        "image": "../assets/images/skills/gold-speed-skill.png",
+        "description": "Slightly increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Possitive"
+    },
+    {
+        "name": "Groundwork",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase acceleration after activating many skills early-race.",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Possitive"
+    },
+    {
+        "name": "Unrestrained",
+        "image": "../assets/images/skills/gold-acceleration-skill.png",
+        "description": "Increase ability to keep the lead on the final corner. (Front Runner)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Possitive"
+    },
+    {
+        "name": "Professor of Curvature",
+        "image": "../assets/images/skills/gold-speed-skill.png",
+        "description": "Increase velocity on a corner with skilled turning.",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Possitive"
+    }
+]

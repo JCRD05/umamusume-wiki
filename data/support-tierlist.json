@@ -1,0 +1,36 @@
+[
+    {
+        "tier": "SS",
+        "members":
+        [
+            { 
+                "name": "Oguri Cap (Starlight Beat)", 
+                "image": ""
+            },
+            { 
+                "name": "Oguri Cap (Ashen Miracle)", 
+                "image": "../assets/images/trainees/oguri-cap-christmas-icon.png"
+            },
+            { 
+                "name": "Seiun Sky (Reeling in the Big One)", 
+                "image": ""
+            },
+            { 
+                "name": "Maruzensky (Hot☆Summer Night)", 
+                "image": ""
+            },
+            { 
+                "name": "Taiki Shuttle (Wild Frontier)", 
+                "image": ""
+            },
+            { 
+                "name": "Mihono Bourbon (CODE: ICING)", 
+                "image": ""
+            },
+            { 
+                "name": "Kitasan Black (Gilded Shrine to Glory)", 
+                "image": ""
+            }
+        ]
+    }
+]

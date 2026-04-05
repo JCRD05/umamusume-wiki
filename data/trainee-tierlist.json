@@ -1,7 +1,7 @@
 [
     {
         "tier": "SS",
-        "trainees":
+        "members":
         [
             { 
                 "name": "Oguri Cap (Starlight Beat)", 
@@ -35,7 +35,7 @@
     },
     {
         "tier": "S",
-        "trainees":
+        "members":
         [
             { 
                 "name": "Silence Suzuka (Innocent Silence)", 
@@ -149,7 +149,7 @@
     },
     {
         "tier": "A",
-        "trainees":
+        "members":
         [
             { 
                 "name": "Mejiro Bright (Brunissage Line)",
@@ -275,7 +275,7 @@
     },
     {
         "tier": "B",
-        "trainees":
+        "members":
         [
             { 
                 "name": "Tosen Jordan (Jokester ☆ Vibes)",

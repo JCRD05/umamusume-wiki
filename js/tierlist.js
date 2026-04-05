@@ -1,9 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
-    loadTierlist();
+    loadTierlist('../data/trainee-tierlist.json');
 });
 
-function loadTierlist(){
-    fetch("../data/tierlist.json")
+const tabs = document.querySelectorAll('.tab');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        if (tab.classList.contains('active')) return;
+
+        tabs.forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+
+        const fileName = tab.getAttribute('data-file')
+        loadTierlist(fileName);
+    })
+})
+
+function loadTierlist(fileName){
+    fetch(fileName)
         .then(response => response.json())
         .then(data => {
             const tierlistBody = document.getElementById('tierlist-body');
@@ -13,24 +27,24 @@ function loadTierlist(){
                 return;
             }
 
-            tierlistBody.innerHTML = '<th colspan="2"><h2>Tier List</h2></th>';
+            tierlistBody.innerHTML = '';
 
             data.forEach(element => {
                 const tierRow = document.createElement('tr');
 
                 tierRow.innerHTML = `
                     <td>${element.tier}</td>
-                    <td class="tier-trainees"></td>`;
+                    <td class="tier-members"></td>`;
 
-                const trainees = tierRow.querySelector('.tier-trainees');
+                const members = tierRow.querySelector('.tier-members');
 
-                element.trainees.forEach(element =>{
-                    const trainee = document.createElement('img');
-                    trainee.src = element.image;
-                    trainee.title = element.name;
-                    trainee.className = 'trainee-image';
+                element.members.forEach(element =>{
+                    const member = document.createElement('img');
+                    member.src = element.image;
+                    member.title = element.name;
+                    member.className = 'member-image';
 
-                    trainees.appendChild(trainee);
+                    members.appendChild(member);
                 })
 
                 tierlistBody.appendChild(tierRow);

@@ -213,7 +213,6 @@ header {
     object-fit: cover;
     border-radius: 8px;
     margin-right: 20px;
-    border: 2px solid #ff9d00;
 }
 
 .cell-flex {
