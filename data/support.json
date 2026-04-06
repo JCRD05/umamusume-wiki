@@ -1,36 +1,31 @@
 [
     {
         "name": "Kitasan Black [The Fire at My Heels]",
-        "image": "../assets/images/support-cards/kitasan-support.png",
-        "description": "Speed: High specialty priority and Professor of Curvature.",
+        "image": "../assets/images/support-cards/Kitasan Black (Fire at My Heels).png",
         "rarity": "SSR",
         "tier": "SS"
     },
     {
         "name": "Sakura Chiyono O [Peak Sakura]",
-        "image": "../assets/images/support-cards/sakura-support.png",
-        "description": "Stamina: Balanced for Long.",
+        "image": "../assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png",
         "rarity": "SR",
         "tier": "A"
     },
     {
         "name": "Tazuna Hayakawa [Reception]",
-        "image": "../assets/images/support-cards/tazuna-support.png",
-        "description": "Friend: Energy management.",
+        "image": "../assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png",
         "rarity": "SSR",
         "tier": "S"
     },
     {
         "name": "Tosen Jordan [My Way]",
-        "image": "../assets/images/support-cards/tosenjordan-support.png",
-        "description": "Speed: Event reward.",
+        "image": "../assets/images/support-cards/Tosen Jordan (My Way).png",
         "rarity": "SSR",
         "tier": "A"
     },
     {
         "name": "Fine Motion [Wave of Gratitude]",
-        "image": "../assets/images/support-cards/finemotion.-support.png",
-        "description": "Intelligence: Exceptional training bonuses and \"Speed Star\" gold skill.",
+        "image": "../assets/images/support-cards/Fine Motion (Wave of Gratitude).png",
         "rarity": "SSR",
         "tier": "SS"
     }
