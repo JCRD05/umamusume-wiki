@@ -277,7 +277,7 @@
     },
     {
         "name": "Sweep Tosho (Lamplit Training of a Witch-to-Be)",
-        "image" : "../assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-Be).png",
+        "image" : "../assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png",
         "rarity": "SR",
         "tier" : "S"
     },
@@ -289,7 +289,7 @@
     },
     {
         "name": "Rice Shower (Showered in Joy)",
-        "image" : "../assets/images/support-cards/Rice Shower (Showered in Joy).png",
+        "image" : "../assets/images/support-cards/Rice Shower (Showered In Joy).png",
         "rarity": "SSR",
         "tier" : "B"
     },
@@ -301,7 +301,7 @@
     },
     {
         "name": "Special Week (The Setting Sun and Rising Stars)",
-        "image" : "../assets/images/support-cards/Special Week (The Setting Sun and Rising Stars).png",
+        "image" : "../assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png",
         "rarity": "SSR",
         "tier" : "S"
     },
