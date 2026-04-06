@@ -247,6 +247,8 @@ header {
 .tier-badge.ss { background-color: #ff4d4d; }
 .tier-badge.s  { background-color: #ffae42; }
 .tier-badge.a  { background-color: #4da6ff; }
+.tier-badge.b  { background-color: #8d59ff; }
+.tier-badge.c  { background-color: #26e400; }
 
 /* FOOTER */
 .main-footer {

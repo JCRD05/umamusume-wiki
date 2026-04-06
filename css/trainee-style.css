@@ -99,6 +99,21 @@ header {
     padding: 0 40px;
 }
 
+.page-description {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto 30px auto;
+    padding: 0 45px;
+}
+
+.page-description p {
+    color: #666;
+    font-size: 1.1rem;
+    font-weight: 600;
+    max-width: 850px;
+    line-height: 1.4;
+}
+
 .title-ribbon {
     background-color: #7a58ff; 
     color: white;
@@ -232,7 +247,7 @@ header {
 .tier-badge.ss { background-color: #ff4d4d; }
 .tier-badge.s  { background-color: #ffae42; }
 .tier-badge.a  { background-color: #4da6ff; }
-.tier-badge.b  { background-color: green;}
+.tier-badge.b  { background-color: #8d59ff;}
 
 /* FOOTER */
 .main-footer {

@@ -19,7 +19,7 @@ sortSelector.addEventListener('change', () => {
         sortedCards.sort((a, b) => rarities[a.rarity] - rarities[b.rarity]);
     }
     else if (criteria == 'Sort By: Tier') {
-        const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4};
+        const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4, 'C': 5};
         sortedCards.sort((a, b) => tiers[a.tier] - tiers[b.tier]);
     }
     loadCards(sortedCards);
