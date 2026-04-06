@@ -38,6 +38,8 @@ Durante el desarrollo se enfrentaron y solucionaron los siguientes retos técnic
 └── assets/             # Recursos visuales e imágenes del proyecto
 ```
 
+---
+
 ## Requisitos Técnicos Cumplidos (EA2)
 
 * **Interactividad:** Implementación de eventos de escucha (`click`, `change`, `keypress`) para actualizar la interfaz dinámicamente sin recargar la página.
@@ -45,6 +47,8 @@ Durante el desarrollo se enfrentaron y solucionaron los siguientes retos técnic
 * **Manejo del DOM:** Generación dinámica de contenido mediante la creación de elementos y actualización de contenedores en tiempo real.
 * **Fetch API:** Carga asíncrona de datos externos desde archivos JSON para alimentar las tablas y secciones del sitio.
 * **Diseño y UX:** Uso de CSS avanzado para lograr una interfaz profesional, responsiva y temática.
+
+---
 
 ## Autores
 
