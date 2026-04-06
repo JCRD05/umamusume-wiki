@@ -15,7 +15,8 @@ sortSelector.addEventListener('change', () => {
         return;
     }
     else if(criteria == 'Sort By: Rarity') {
-        sortedTrainees.sort((a, b) => parseInt(b.rarity) - parseInt(a.rarity));
+        const rarities = { '★': 1, '★★': 2, '★★★': 3};
+        sortedTrainees.sort((a, b) => rarities[b.rarity] - rarities[a.rarity]);
     }
     else if (criteria == 'Sort By: Tier') {
         const tiers = { 'SS': 1, 'S': 2, 'A': 3, 'B': 4};
@@ -73,7 +74,7 @@ function loadSkills(trainees) {
                 </div>
             </td>
             <td>${element.rarity}</td>
-            <td>${element.tier}</td>`;
+            <td><span class="tier-badge ${element.tier.toLowerCase()}">${element.tier}</span></td>`;
 
         tableBody.appendChild(traineeRow);
     });

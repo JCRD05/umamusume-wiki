@@ -1,8 +1,446 @@
 [
     {
+        "name": "Special Week (Special Dreamer)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Special Week (Special Dreamer).png"
+    },
+    {
+        "name": "Silence Suzuka (Innocent Silence)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Silence Suzuka (Innocent Silence).png"
+    },
+    {
+        "name": "Tokai Teio (Peak Joy)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Tokai Teio (Peak Joy).png"
+    },
+    {
+        "name": "Maruzensky (Formula R)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Maruzensky (Formula R).png"
+    },
+    {
+        "name": "Oguri Cap (Starlight Beat)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Oguri Cap (Starlight Beat).png"
+    },
+    {
+        "name": "Taiki Shuttle (Wild Frontier)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Taiki Shuttle (Wild Frontier).png"
+    },
+    {
+        "name": "Mejiro McQueen (Frontline Elegance)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Mejiro McQueen (Frontline Elegance).png"
+    },
+    {
+        "name": "T.M. Opera O (O Sole Suo!)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/T.M. Opera O (O Sole Suo!).png"
+    },
+    {
+        "name": "Symboli Rudolf (Emperor's Path)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Symboli Rudolf (Emperor's Path).png"
+    },
+    {
+        "name": "Rice Shower (Rosy Dreams)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Rice Shower (Rosy Dreams).png"
+    },
+    {
+        "name": "Gold Ship (Red Strife)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Gold Ship (Red Strife).png"
+    },
+    {
+        "name": "Vodka (Wild Top Gear)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Vodka (Wild Top Gear).png"
+    },
+    {
+        "name": "Daiwa Scarlet (Peak Blue)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Daiwa Scarlet (Peak Blue).png"
+    },
+    {
+        "name": "Grass Wonder (Stone-Piercing Blue)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Grass Wonder (Stone-Piercing Blue).png"
+    },
+    {
+        "name": "El Condor Pasa (El Numero 1)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/El Condor Pasa (El Numero 1).png"
+    },
+    {
+        "name": "Air Groove (Empress Road)",
+        "rarity": "★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Air Groove (Empress Road).png"
+    },
+    {
+        "name": "Mayano Top Gun (Scramble Zone)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Mayano Top Gun (Scramble Zone).png"  
+    },
+    {
+        "name": "Super Creek (Murmuring Stream)",
+        "rarity": "★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Super Creek (Murmuring Stream).png"
+    },
+    {
+        "name": "Mejiro Ryan (Down the Line)",
+        "rarity": "★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Mejiro Ryan (Down the Line).png"
+    },
+    {
+        "name": "Agnes Tachyon (Tach-nology)",
+        "rarity": "★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Agnes Tachyon (Tach-nology).png"
+    },
+    {
+        "name": "Winning Ticket (Get to Winning!)",
+        "rarity": "★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Winning Ticket (Get to Winning!).png"
+    },
+    {
+        "name": "Sakura Bakushin O (Blossom in Learning)",
+        "rarity": "★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Sakura Bakushin O (Blossom in Learning).png"
+    },
+    {
+        "name": "Haru Urara (Bestest Prize)",
+        "rarity": "★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Haru Urara (Bestest Prize).png"
+    },
+    {
+        "name": "Matikane Fukukitaru (Rising Fortune)",
+        "rarity": "★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Matikane Fukukitaru (Rising Fortune).png"
+    },
+    {
+        "name": "Nice Nature (Poinsettia Ribbon)",
+        "rarity": "★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Nice Nature (Poinsettia Ribbon).png"
+    },
+    {
+        "name": "King Halo (King of Emeralds)",
+        "rarity": "★",
+        "tier": "B",
+        "image": "../assets/images/trainees/King Halo (King of Emeralds).png"
+    },
+    {
+        "name": "Mihono Bourbon (MB-19890425)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Mihono Bourbon (MB-19890425).png"
+    },
+    {
+        "name": "Biwa Hayahide (pf. Winning Equation...)",
+        "rarity": "★★★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Biwa Hayahide (pf. Winning Equation...).png"
+    },
+    {
+        "name": "Mejiro McQueen (End of the Skies)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Mejiro McQueen (End of the Skies).png"
+    },
+    {
+        "name": "Tokai Teio (Beyond the Horizon)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Tokai Teio (Beyond the Horizon).png"
+    },
+    {
+        "name": "Curren Chan (Fille Éclair)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Curren Chan (Fille Éclair).png"
+    },
+    {
+        "name": "Narita Taishin (Nevertheless)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Narita Taishin (Nevertheless).png"
+    },
+    {
+        "name": "Smart Falcon (LOVE☆4EVER)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Smart Falcon (LOVE☆4EVER).png"
+    },
+    {
+        "name": "Narita Brian (Maverick)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Narita Brian (Maverick).png"
+    },
+    {
+        "name": "Mayano Top Gun (Sunlight Bouquet)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Mayano Top Gun (Sunlight Bouquet).png"
+    },
+    {
+        "name": "Air Groove (Quercus Civilis)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Air Groove (Quercus Civilis).png"
+    },
+    {
+        "name": "Seiun Sky (Reeling in the Big One)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Seiun Sky (Reeling in the Big One).png"
+    },
+    {
+        "name": "Hishi Amazon (Azure Amazon)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Hishi Amazon (Azure Amazon).png"
+    },
+    {
+        "name": "El Condor Pasa (Kukulkan Warrior)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/El Condor Pasa (Kukulkan Warrior).png"
+    },
+    {
+        "name": "Grass Wonder (Saintly Jade Cleric)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Grass Wonder (Saintly Jade Cleric).png"
+    },
+    {
+        "name": "Fuji Kiseki (Shooting Star Revue)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Fuji Kiseki (Shooting Star Revue).png"
+    },
+    {
+        "name": "Gold City (Authentic 1928)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Gold City (Authentic 1928).png"
+    },
+    {
+        "name": "Special Week (Hopp'n♪Happy Heart)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Special Week (Hopp'n♪Happy Heart).png"
+    },
+    {
+        "name": "Maruzensky (Hot☆Summer Night)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Maruzensky (Hot☆Summer Night).png"
+    },
+    {
+        "name": "Meisho Doto (Turbulent Blue)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Meisho Doto (Turbulent Blue).png"
+    },
+    {
+        "name": "Eishin Flash (Meisterschaft)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Eishin Flash (Meisterschaft).png"
+    },
+    {
+        "name": "Matikane Fukukitaru (Lucky Tidings)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Matikane Fukukitaru (Lucky Tidings).png"
+    },
+    {
+        "name": "Hishi Akebono (Buono☆Alla Moda)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Hishi Akebono (Buono☆Alla Moda).png"
+    },
+    {
+        "name": "Agnes Digital (Full-Color Fangirling)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Agnes Digital (Full-Color Fangirling).png"
+    },
+    {
+        "name": "Rice Shower (Vampire Makeover!)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Rice Shower (Vampire Makeover!).png"
+    },
+    {
+        "name": "Super Creek (Chiffon-Wrapped Mummy)",
+        "rarity": "★★★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Super Creek (Chiffon-Wrapped Mummy).png"
+    },
+    {
+        "name": "Kawakami Princess (Princess of Pink)",
+        "rarity": "★★★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Kawakami Princess (Princess of Pink).png"
+    },
+    {
+        "name": "Manhattan Cafe (Creeping Shadow)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Manhattan Cafe (Creeping Shadow).png"
+    },
+    {
+        "name": "Symboli Rudolf (Archer by Moonlight)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Symboli Rudolf (Archer by Moonlight).png"
+    },
+    {
+        "name": "Gold City (Autumn Cosmos)",
+        "rarity": "★★★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Gold City (Autumn Cosmos).png"
+    },
+    {
+        "name": "Tosen Jordan (Jokester ☆ Vibes)",
+        "rarity": "★★★",
+        "tier": "B",
+        "image": "../assets/images/trainees/Tosen Jordan (Jokester ☆ Vibes).png"
+    },
+    {
+        "name": "Mejiro Dober (Off the Line)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Mejiro Dober (Off the Line).png"
+    },
+    {
         "name": "Oguri Cap (Ashen Miracle)",
-        "rarity": "3☆",
+        "rarity": "★★★",
         "tier": "SS",
         "image": "../assets/images/trainees/Oguri Cap (Ashen Miracle).png"
+    },
+    {
+        "name": "Biwa Hayahide (Rouge Caroler)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Biwa Hayahide (Rouge Caroler).png"
+    },
+    {
+        "name": "Fine Motion (Noble Seamair)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Fine Motion (Noble Seamair).png"
+    },
+    {
+        "name": "Tamamo Cross (Fast as Lightning)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Tamamo Cross (Fast as Lightning).png"
+    },
+    {
+        "name": "Haru Urara (New Year ♪ New Urara!)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Haru Urara (New Year ♪ New Urara!).png"
+    },
+    {
+        "name": "T.M. Opera O (New Year, Same Radiance!)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/T.M. Opera O (New Year, Same Radiance!).png"
+    },
+    {
+        "name": "Sakura Chiyono O (Strength in Full Bloom)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Sakura Chiyono O (Strength in Full Bloom).png"
+    },
+    {
+        "name": "Mihono Bourbon (CODE: ICING)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Mihono Bourbon (CODE ICING).png"
+    },
+    {
+        "name": "Eishin Flash (Precise Chocolatier)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Eishin Flash (Precise Chocolatier).png"
+    },
+    {
+        "name": "Mejiro Ardan (Crystalline)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Mejiro Ardan (Crystalline).png"
+    },
+    {
+        "name": "Admire Vega (Starry Nocturne)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Admire Vega (Starry Nocturne).png"
+    },
+    {
+        "name": "Kitasan Black (Gilded Shrine to Glory)",
+        "rarity": "★★★",
+        "tier": "SS",
+        "image": "../assets/images/trainees/Kitasan Black (Gilded Shrine to Glory).png"
+    },
+    {
+        "name": "Matikane Tannhauser (Mambo)",
+        "rarity": "★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/MatikaneTannhauser (Mambo).png"
+    },
+    {
+        "name": "Satono Diamond (Natural Brilliance)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Satono Diamond (Natural Brilliance).png"
+    },
+    {
+        "name": "Mejiro Bright (Brunissage Line)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Mejiro Bright (Brunissage Line).png"
+    },
+    {
+        "name": "Fuji Kiseki (Succès Étoilé)",
+        "rarity": "★★★",
+        "tier": "A",
+        "image": "../assets/images/trainees/Fuji Kiseki (Succès Étoilé).png"
+    },
+    {
+        "name": "Seiun Sky (Soirée des Chatons)",
+        "rarity": "★★★",
+        "tier": "S",
+        "image": "../assets/images/trainees/Seiun Sky (Soirée des Chatons).png"
     }
 ]

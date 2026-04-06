@@ -69,7 +69,7 @@ function loadSkills(skills) {
         skillRow.innerHTML = `
             <td>
                 <div class="cell-flex">
-                    <img src="${element.image}" alt="Kitasan Black" class="table-img">
+                    <img src="${element.image}" class="table-img">
                     <div class="details">
                         <span class="name">${element.name}</span>
                         <span class="desc">${element.description}</span>

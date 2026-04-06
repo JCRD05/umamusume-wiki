@@ -195,7 +195,7 @@ header {
 }
 
 .banners-table th {
-    text-align: center; /* Centrado para que combine con el contenido vertical */
+    text-align: center; 
     color: #8b5a2b; 
     font-weight: 900;
     text-transform: uppercase;
@@ -210,7 +210,6 @@ header {
     text-align: center;
 }
 
-/* --- CELDA FLEX: IMAGEN + NOMBRES ABAJO --- */
 .cell-flex {
     display: flex;
     flex-direction: column; 
@@ -219,7 +218,7 @@ header {
 }
 
 .banner-image {
-    width: 320px; /* Tamaño ideal para resaltar el banner */
+    width: 320px; 
     height: auto;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.15);
@@ -231,34 +230,30 @@ header {
     transform: scale(1.02);
 }
 
-/* GRUPO DE TEXTO: Aseguramos que use todo el ancho de la celda */
 .names-group {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* Ahora se expande totalmente */
+    width: 100%; /
 }
 
-/* NOMBRE: Ocupa todo el ancho para que la línea sepa de dónde a dónde ir */
 .name {
     display: block;
     font-weight: 800;
     color: #8b5a2b;
     font-size: 1.15rem;
-    padding: 8px 0; /* Un poco más de espacio vertical */
-    width: 100%;    /* Ocupa el ancho total del names-group */
+    padding: 8px 0;
+    width: 100%;
     text-align: center;
 }
 
-/* LA LÍNEA SEPARADORA: Ahora al 100% */
 .name:nth-child(2) {
     border-top: 2px solid #ffcc80;
     margin-top: 5px;
     padding-top: 12px;
-    width: 100%; /* Cambiado de 60% a 100% para cruzar toda la celda */
+    width: 100%;
 }
 
-/* DISPONIBILIDAD (Segunda Columna) */
 .data-body tr td:last-child {
     font-weight: 700;
     color: #8b5a2b;
