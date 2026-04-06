@@ -4,5 +4,53 @@
         "supports": "Symboli Rudolf (Stamina SSR) and Sirius Symboli (Wit SSR)",
         "availability": "Apr 5, 2026 - Apr 18, 2026",
         "image": "../assets/images/banners/Apr 5, 2026 - Apr 18, 2026.png"
+    },
+    {
+        "trainees": "Nishino Flower",
+        "supports": "Daiwa Scarlet (Power SSR) and Sweep Tosho (Wit SR)",
+        "availability": "Apr 12, 2026 - Apr 20, 2026",
+        "image": "../assets/images/banners/Apr 12, 2026 - Apr 20, 2026.png"
+    },
+    {
+        "trainees": "Yaeno Muteki",
+        "supports": "(Rerun Banner) Twin Turbo SSR and Ines Fujin SSR",
+        "availability": "Apr 20, 2026 - Apr 29, 2026",
+        "image": "../assets/images/banners/Apr 20, 2026 - Apr 29, 2026.png"
+    },
+    {
+        "trainees": "Nice Nature and King Halo (Cheerleader alts)",
+        "supports": "Bamboo Memory (Guts SSR) and Seeking the Pearl (Speed SSR)",
+        "availability": "Apr 26, 2026 - May 08, 2026",
+        "image": "../assets/images/banners/Apr 26, 2026 - May 08, 2026.png"
+    },
+    {
+        "trainees": "Ines Fujin",
+        "supports": "Mr. C.B. (Wit SSR) and Tokai Teio (Stamina SR)",
+        "availability": "Apr 30, 2026 - May 10, 2026",
+        "image": "../assets/images/banners/Apr 30, 2026 - May 10, 2026.png"
+    },
+    {
+        "trainees": "Mejiro Palmer",
+        "supports": "(Rerun Banner) Matikanefukukitaru (Speed SSR) and Rice Shower (Power SSR)",
+        "availability": "Expected in early may TBD",
+        "image": "../assets/images/banners/Expected Banners - Early May 1.png"
+    },
+    {
+        "trainees": "Curren Chan (Wedding) and Fine Motion (Wedding)",
+        "supports": "Haru Urara (Power SSR) and Ikuno Dictus (Stamina SSR)",
+        "availability": "Expected in early may TBD",
+        "image": "../assets/images/banners/Expected Banners - Early May 2.png"
+    },    
+    {
+        "trainees": "Inari One",
+        "supports": "(Rerun Banner) Admire Vega (Power SSR) Sakura Chiyono O (Stamina SSR)",
+        "availability": "Expected late may TBD",
+        "image": "../assets/images/banners/Expected Banners - Late May 1.png"
+    },
+    {
+        "trainees": "Sweep Tosho",
+        "supports": "Taiki Shuttle (Speed SSR) Oguri Cap (Guts SR)",
+        "availability": "Expected in late may TBD",
+        "image": "../assets/images/banners/Expected Banners - Late May 2.png"
     }
 ]
