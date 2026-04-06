@@ -42,7 +42,12 @@ function loadTierlist(fileName){
                     const member = document.createElement('img');
                     member.src = element.image;
                     member.title = element.name;
-                    member.className = 'member-image';
+
+                    if(fileName == "../data/trainee-tierlist.json"){
+                        member.className = 'trainee-image';
+                    } else {
+                        member.className = 'support-image';
+                    }
 
                     members.appendChild(member);
                 })

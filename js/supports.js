@@ -72,7 +72,6 @@ function loadCards(cards) {
                     <img src="${element.image}" alt="Kitasan Black" class="table-img">
                     <div class="details">
                         <span class="name">${element.name}</span>
-                        <span class="desc">${element.description}</span>
                     </div>
                 </div>
             </td>

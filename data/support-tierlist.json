@@ -4,32 +4,504 @@
         "members":
         [
             { 
-                "name": "Oguri Cap (Starlight Beat)", 
-                "image": ""
+                "name": "Kitasan Black (Fire at My Heels)", 
+                "image": "../assets/images/support-cards/Kitasan Black (Fire at My Heels).png"
             },
             { 
-                "name": "Oguri Cap (Ashen Miracle)", 
-                "image": "../assets/images/trainees/oguri-cap-christmas-icon.png"
+                "name": "Super Creek (Piece of Mind)", 
+                "image": "../assets/images/support-cards/Super Creek (Piece of Mind).png"
             },
             { 
-                "name": "Seiun Sky (Reeling in the Big One)", 
-                "image": ""
+                "name": "Fine Motion (Wave of Gratitude)", 
+                "image": "../assets/images/support-cards/Fine Motion (Wave of Gratitude).png"
+            }
+        ]
+    },
+    {
+        "tier": "S",
+        "members":
+        [
+            { 
+                "name": "Narita Top Road (Peachy Silhouette)", 
+                "image": "../assets/images/support-cards/Narita Top Road (Peachy Silhouette).png"
             },
             { 
-                "name": "Maruzensky (Hot☆Summer Night)", 
-                "image": ""
+                "name": "Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪)", 
+                "image": "../assets/images/support-cards/Matikanefukukitaru (Touching Sleeves Is Good Luck! ♪).png"
             },
             { 
-                "name": "Taiki Shuttle (Wild Frontier)", 
-                "image": ""
+                "name": "Biko Pegasus (Double Carrot Punch!)", 
+                "image": "../assets/images/support-cards/Biko Pegasus (Double Carrot Punch!).png"
             },
             { 
-                "name": "Mihono Bourbon (CODE: ICING)", 
-                "image": ""
+                "name": "Sakura Bakushin O (Eat Fast! Yum Fast!)", 
+                "image": "../assets/images/support-cards/Sakura Bakushin O (Eat Fast! Yum Fast!).png"
             },
             { 
-                "name": "Kitasan Black (Gilded Shrine to Glory)", 
-                "image": ""
+                "name": "Special Week (The Setting Sun And Rising Stars)", 
+                "image": "../assets/images/support-cards/Special Week (The Setting Sun And Rising Stars).png"
+            },
+            { 
+                "name": "Tokai Teio (Dream Big!)", 
+                "image": "../assets/images/support-cards/Tokai Teio (Dream Big!).png"
+            },
+            { 
+                "name": "Sweep Tosho (It's All Mine!)", 
+                "image": "../assets/images/support-cards/Sweep Tosho (It's All Mine!).png"
+            },
+            { 
+                "name": "Silence Suzuka (Beyond This Shining Moment)", 
+                "image": "../assets/images/support-cards/Silence Suzuka (Beyond This Shining Moment).png"
+            },
+            { 
+                "name": "Mayano Top Gun (Party Formation)", 
+                "image": "../assets/images/support-cards/Mayano Top Gun (Party Formation).png"
+            },
+            { 
+                "name": "Sweep Tosho (Lamplit Training of a Witch-to-be)", 
+                "image": "../assets/images/support-cards/Sweep Tosho (Lamplit Training of a Witch-to-be).png"
+            },
+            { 
+                "name": "Shinko Windy (///WARNING GATE///)", 
+                "image": "../assets/images/support-cards/Shinko Windy (WARNING GATE).png"
+            },
+            { 
+                "name": "Curren Chan (Cozy Cute Memory ♪)", 
+                "image": "../assets/images/support-cards/Curren Chan (Cozy Cute Memory ♪).png"
+            },
+            { 
+                "name": "Admire Vega (Lucky Star in the Sky)", 
+                "image": "../assets/images/support-cards/Admire Vega (Lucky Star in the Sky).png"
+            },
+            { 
+                "name": "Vodka (Wild Rider)", 
+                "image": "../assets/images/support-cards/Vodka (Wild Rider).png"
+            },
+            { 
+                "name": "Rice Shower (Happiness Just around the Bend)", 
+                "image": "../assets/images/support-cards/Rice Shower (Happiness Just around the Bend).png"
+            },
+            { 
+                "name": "El Condor Pasa (Champion's Passion)", 
+                "image": "../assets/images/support-cards/El Condor Pasa (Champion's Passion).png"
+            },
+            { 
+                "name": "Oguri Cap (Get Lots of Hugs for Me)", 
+                "image": "../assets/images/support-cards/Oguri Cap (Get Lots of Hugs for Me).png"
+            },
+            { 
+                "name": "King Halo (Tonight, We Waltz)", 
+                "image": "../assets/images/support-cards/King Halo (Tonight, We Waltz).png"
+            },
+            { 
+                "name": "Yaeno Muteki (Fiery Discipline)", 
+                "image": "../assets/images/support-cards/Yaeno Muteki (Fiery Discipline).png"
+            },
+            { 
+                "name": "Smart Falcon (My Umadol Way! ☆)", 
+                "image": "../assets/images/support-cards/Smart Falcon (My Umadol Way! ☆).png"
+            },
+            { 
+                "name": "Narita Brian (The Whistling Arrow's Taunt)", 
+                "image": "../assets/images/support-cards/Narita Brian (The Whistling Arrow's Taunt).png"
+            },
+            { 
+                "name": "Seiun Sky (Foolproof Plan)", 
+                "image": "../assets/images/support-cards/Seiun Sky (Foolproof Plan).png"
+            },
+            { 
+                "name": "Manhattan Cafe (My Solo Drawn to Raindrop Drums)", 
+                "image": "../assets/images/support-cards/Manhattan Cafe (My Solo Drawn to Raindrop Drums).png"
+            },
+            { 
+                "name": "Mayano Top Gun (Cute + Cute = ?)", 
+                "image": "../assets/images/support-cards/Mayano Top Gun (Cute + Cute).png"
+            },
+            { 
+                "name": "Zenno Rob Roy (The Perfect Book for You)", 
+                "image": "../assets/images/support-cards/Zenno Rob Roy (The Perfect Book for You).png"
+            },
+            { 
+                "name": "Nice Nature (Daring to Dream)", 
+                "image": "../assets/images/support-cards/Nice Nature (Daring to Dream).png"
+            },
+            { 
+                "name": "Yukino Bijin (Hometown Cheers)", 
+                "image": "../assets/images/support-cards/Yukino Bijin (Hometown Cheers).png"
+            },
+            { 
+                "name": "Marvelous Sunday (A Marvelous ☆ Plan)", 
+                "image": "../assets/images/support-cards/Marvelous Sunday (A Marvelous ☆ Plan).png"
+            },
+            { 
+                "name": "Haru Urara (Urara's Day Off!)", 
+                "image": "../assets/images/support-cards/Haru Urara (Urara's Day Off!).png"
+            },
+            { 
+                "name": "Ines Fujin (Watch My Star Fly!)", 
+                "image": "../assets/images/support-cards/Ines Fujin (Watch My Star Fly!).png"
+            },
+            { 
+                "name": "Admire Vega (Aim for the Brightest)", 
+                "image": "../assets/images/support-cards/Admire Vega (Aim for the Brightest).png"
+            },
+            { 
+                "name": "Riko Kashimoto (Planned Perfection)", 
+                "image": "../assets/images/support-cards/Riko Kashimoto (Planned Perfection).png"
+            },
+            { 
+                "name": "Tazuna Hayakawa (Tracen Reception)", 
+                "image": "../assets/images/support-cards/Tazuna Hayakawa (Tracen Reception).png"
+            }
+        ]
+    },
+    {
+        "tier": "A",
+        "members":
+        [
+            {
+                "name": "Tosen Jordan (My Way)",
+                "image": "../assets/images/support-cards/Tosen Jordan (My Way).png"
+            },
+            { 
+                "name": "Zenno Rob Roy (Magical Heroine)", 
+                "image": "../assets/images/support-cards/Zenno Rob Roy (Magical Heroine).png"
+            },
+            { 
+                "name": "Nishino Flower (Even the Littlest Bud)", 
+                "image": "../assets/images/support-cards/Nishino Flower (Even the Littlest Bud).png"
+            },
+            { 
+                "name": "Gold City (Run (my) way)", 
+                "image": "../assets/images/support-cards/Gold City (Run (my) way).png"
+            },
+            { 
+                "name": "Twin Turbo (Turbo Booooost!)", 
+                "image": "../assets/images/support-cards/Twin Turbo (Turbo Booooost!).png"
+            },
+            { 
+                "name": "Silence Suzuka (Searching for Unseen Sights)", 
+                "image": "../assets/images/support-cards/Silence Suzuka (Searching for Unseen Sights).png"
+            },
+            { 
+                "name": "Kawakami Princess (Princess Bride)", 
+                "image": "../assets/images/support-cards/Kawakami Princess (Princess Bride).png"
+            },
+            { 
+                "name": "Narita Taishin (Poolside High Tides)", 
+                "image": "../assets/images/support-cards/Narita Taishin (Poolside High Tides).png"
+            },
+            { 
+                "name": "Vodka (An Annoying Supervisor)", 
+                "image": "../assets/images/support-cards/Vodka (An Annoying Supervisor).png"
+            },
+            { 
+                "name": "King Halo (First-Rate Plan)", 
+                "image": "../assets/images/support-cards/King Halo (First-Rate Plan).png"
+            },
+            { 
+                "name": "Eishin Flash (5:00 a.m.-Right on Schedule)", 
+                "image": "../assets/images/support-cards/Eishin Flash (500 a.m.-Right on Schedule).png"
+            },
+            { 
+                "name": "Tamamo Cross (Beware! Halloween Night!)", 
+                "image": "../assets/images/support-cards/Tamamo Cross (Beware! Halloween Night!).png"
+            },
+            { 
+                "name": "Winning Ticket (Dreams Do Come True!)", 
+                "image": "../assets/images/support-cards/Winning Ticket (Dreams Do Come True!).png"
+            },
+            { 
+                "name": "Daitaku Helios (Make! Some! NOISE!)", 
+                "image": "../assets/images/support-cards/Daitaku Helios (Make! Some! NOISE!).png"
+            },
+            { 
+                "name": "Marvelous Sunday (Dazzling Day in the Snow)", 
+                "image": "../assets/images/support-cards/Marvelous Sunday (Dazzling Day in the Snow).png"
+            },
+            { 
+                "name": "Daitaku Helios (Let's Get This Party Lit!)", 
+                "image": "../assets/images/support-cards/Daitaku Helios (Let's Get This Party Lit!).png"
+            },
+            { 
+                "name": "Nishino Flower (Lifting Your Spirits)", 
+                "image": "../assets/images/support-cards/Nishino Flower (Lifting Your Spirits).png"
+            },
+            { 
+                "name": "Mihono Bourbon (Pal-Assisted Training)", 
+                "image": "../assets/images/support-cards/Mihono Bourbon (Pal-Assisted Training).png"
+            },
+            { 
+                "name": "Hishi Amazon (Reach to the Top!)", 
+                "image": "../assets/images/support-cards/Hishi Amazon (Reach to the Top!).png"
+            },
+            { 
+                "name": "Inari One (Laughing through the Mud)", 
+                "image": "../assets/images/support-cards/Inari One (Laughing through the Mud).png"
+            },
+            { 
+                "name": "Fine Motion (Grma, Ramen ♪)", 
+                "image": "../assets/images/support-cards/Fine Motion (Grma, Ramen ♪).png"
+            },
+            { 
+                "name": "Silence Suzuka (Winning Dream)", 
+                "image": "../assets/images/support-cards/Silence Suzuka (Winning Dream).png"
+            },
+            { 
+                "name": "Sakura Chiyono O (Peak Sakura Season)", 
+                "image": "../assets/images/support-cards/Sakura Chiyono O (Peak Sakura Season).png"
+            },
+            { 
+                "name": "Mejiro McQueen (Your Team Ace)", 
+                "image": "../assets/images/support-cards/Mejiro McQueen (Your Team Ace).png"
+            },
+            { 
+                "name": "Manhattan Cafe (My Solo Spun in Spiraling Runs)", 
+                "image": "../assets/images/support-cards/Manhattan Cafe (My Solo Spun in Spiraling Runs).png"
+            },
+            { 
+                "name": "Satono Diamond (The Will to Overtake)", 
+                "image": "../assets/images/support-cards/Satono Diamond (The Will to Overtake).png"
+            },
+            { 
+                "name": "Nakayama Festa (43, 8, 1)", 
+                "image": "../assets/images/support-cards/Nakayama Festa (43, 8, 1).png"
+            },
+            { 
+                "name": "Sakura Bakushin O (The Perfect Morning Greeting!)", 
+                "image": "../assets/images/support-cards/Sakura Bakushin O (The Perfect Morning Greeting!).png"
+            },
+            { 
+                "name": "Mihono Bourbon (The Ghost Finds Halloween Magic)", 
+                "image": "../assets/images/support-cards/Mihono Bourbon (The Ghost Finds Halloween Magic).png"
+            },
+            { 
+                "name": "Seiun Sky (Paint the Sky Red)", 
+                "image": "../assets/images/support-cards/Seiun Sky (Paint the Sky Red).png"
+            },
+            { 
+                "name": "Curren Chan (Cutie Pie with Shining Eyes)", 
+                "image": "../assets/images/support-cards/Curren Chan (Cutie Pie with Shining Eyes).png"
+            },
+            { 
+                "name": "Mejiro Dober (My Thoughts, My Desires)", 
+                "image": "../assets/images/support-cards/Mejiro Dober (My Thoughts, My Desires).png"
+            },
+            { 
+                "name": "Narita Taishin (Strict Shopper)", 
+                "image": "../assets/images/support-cards/Narita Taishin (Strict Shopper).png"
+            },
+            { 
+                "name": "Mejiro Ardan (My Heart Will Go On)", 
+                "image": "../assets/images/support-cards/Mejiro Ardan (My Heart Will Go On).png"
+            },
+            { 
+                "name": "Agnes Tachyon (Experimental Studies on Subject A)", 
+                "image": "../assets/images/support-cards/Agnes Tachyon (Experimental Studies on Subject A).png"
+            },
+            { 
+                "name": "Daiwa Scarlet (Nothing Hard Work Can't Solve!)", 
+                "image": "../assets/images/support-cards/Daiwa Scarlet (Nothing Hard Work Can't Solve!).png"
+            },
+            { 
+                "name": "Matikane Fukukitaru (Fate's Forecast)", 
+                "image": "../assets/images/support-cards/Matikane Fukukitaru (Fate's Forecast).png"
+            },
+            { 
+                "name": "Nice Nature (Messing Around)", 
+                "image": "../assets/images/support-cards/Nice Nature (Messing Around).png"
+            },
+            { 
+                "name": "Fuji Kiseki (Well, Look Who's Home)", 
+                "image": "../assets/images/support-cards/Fuji Kiseki (Well, Look Who's Home).png"
+            },
+            { 
+                "name": "Ikuno Dictus (Warm Heart, Soft Steps)", 
+                "image": "../assets/images/support-cards/Ikuno Dictus (Warm Heart, Soft Steps).png"
+            },
+            { 
+                "name": "Yukino Bijin (Dancing Light into the Night)", 
+                "image": "../assets/images/support-cards/Yukino Bijin (Dancing Light into the Night).png"
+            },
+            { 
+                "name": "Matikanetannhauser (Just Keep Going)", 
+                "image": "../assets/images/support-cards/Matikanetannhauser (Just Keep Going).png"
+            },
+            { 
+                "name": "Special Week (The Brightest Star in Japan)", 
+                "image": "../assets/images/support-cards/Special Week (The Brightest Star in Japan).png"
+            },
+            { 
+                "name": "Grass Wonder (Fairest Fleur)", 
+                "image": "../assets/images/support-cards/Grass Wonder (Fairest Fleur).png"
+            },
+            { 
+                "name": "Sakura Bakushin O (Super! Sonic! Flower Power!)", 
+                "image": "../assets/images/support-cards/Sakura Bakushin O (Super! Sonic! Flower Power!).png"
+            },
+            { 
+                "name": "Mejiro Ryan (Winning Pitch)", 
+                "image": "../assets/images/support-cards/Mejiro Ryan (Winning Pitch).png"
+            },
+            { 
+                "name": "Seeking the Pearl (The World's My Oyster)", 
+                "image": "../assets/images/support-cards/Seeking the Pearl (The World's My Oyster).png"
+            },
+            { 
+                "name": "Air Groove (Nothing Escapes the Vice Prez)", 
+                "image": "../assets/images/support-cards/Air Groove (Nothing Escapes the Vice Prez).png"
+            },
+            { 
+                "name": "Sirius Symboli (The Brightest Star Shines On)", 
+                "image": "../assets/images/support-cards/Sirius Symboli (The Brightest Star Shines On).png"
+            },
+            { 
+                "name": "Aoi Kiryuin (Trainer's Teamwork)", 
+                "image": "../assets/images/support-cards/Aoi Kiryuin (Trainer's Teamwork).png"
+            },
+            { 
+                "name": "Team Sirius (Passing the Dream On)", 
+                "image": "../assets/images/support-cards/Team Sirius (Passing the Dream On).png"
+            }
+        ]
+    },
+    {
+        "tier": "B",
+        "members":
+        [
+            { 
+                "name": "Narita Brian (Two Pieces)", 
+                "image": "../assets/images/support-cards/Narita Brian (Two Pieces).png"
+            },
+            { 
+                "name": "Mejiro Ryan (Hot Hearts and Cool Drinks)", 
+                "image": "../assets/images/support-cards/Mejiro Ryan (Hot Hearts and Cool Drinks).png"
+            },
+            { 
+                "name": "Mejiro Bright (Little by Little)", 
+                "image": "../assets/images/support-cards/Mejiro Bright (Little by Little).png"
+            },
+            { 
+                "name": "Bamboo Memory (Head-On Fight!)", 
+                "image": "../assets/images/support-cards/Bamboo Memory (Head-On Fight!).png"
+            },
+            { 
+                "name": "Daiwa Scarlet (Mini☆Vacation)", 
+                "image": "../assets/images/support-cards/Daiwa Scarlet (Mini☆Vacation).png"
+            },
+            { 
+                "name": "Biwa Hayahide (Trial Initiation)", 
+                "image": "../assets/images/support-cards/Biwa Hayahide (Trial Initiation).png"
+            },
+            { 
+                "name": "Mejiro Ryan (On and Off the Court)", 
+                "image": "../assets/images/support-cards/Mejiro Ryan (On and Off the Court).png"
+            },
+            { 
+                "name": "Agnes Digital (Digital's Recharge Station)", 
+                "image": "../assets/images/support-cards/Agnes Digital (Digital's Recharge Station).png"
+            },
+            { 
+                "name": "Special Week (At the End of the Day)", 
+                "image": "../assets/images/support-cards/Special Week (At the End of the Day).png"
+            },
+            { 
+                "name": "Meisho Doto (Leaping into the Unknown)", 
+                "image": "../assets/images/support-cards/Meisho Doto (Leaping into the Unknown).png"
+            },
+            { 
+                "name": "Agnes Digital (A Fan's Joy)", 
+                "image": "../assets/images/support-cards/Agnes Digital (A Fan's Joy).png"
+            },
+            { 
+                "name": "Tamamo Cross (Split the Sky, White Lightning!)", 
+                "image": "../assets/images/support-cards/Tamamo Cross (Split the Sky, White Lightning!).png"
+            },
+            { 
+                "name": "Rice Shower (Showered In Joy)", 
+                "image": "../assets/images/support-cards/Rice Shower (Showered In Joy).png"
+            },
+            { 
+                "name": "Tosen Jordan (Turf as Nails)", 
+                "image": "../assets/images/support-cards/Tosen Jordan (Turf as Nails).png"
+            },
+            { 
+                "name": "Mejiro Dober (Ignore the Stares)", 
+                "image": "../assets/images/support-cards/Mejiro Dober (Ignore the Stares).png"
+            },
+            { 
+                "name": "Ikuno Dictus (Never Skip Warm-Ups)", 
+                "image": "../assets/images/support-cards/Ikuno Dictus (Never Skip Warm-Ups).png"
+            },
+            { 
+                "name": "Tamamo Cross (Now Dat's What I Call Grilled Squid!)", 
+                "image": "../assets/images/support-cards/Tamamo Cross (Now Dat's What I Call Grilled Squid!).png"
+            },
+            { 
+                "name": "Satono Diamond (Special Dreamers!)", 
+                "image": "../assets/images/support-cards/Satono Diamond (Special Dreamers!).png"
+            },
+            { 
+                "name": "Ines Fujin (You Earned It!)", 
+                "image": "../assets/images/support-cards/Ines Fujin (You Earned It!).png"
+            },
+            { 
+                "name": "Nishino Flower (Little Cupcakes, Big Emotions)", 
+                "image": "../assets/images/support-cards/Nishino Flower (Little Cupcakes, Big Emotions).png"
+            },
+            { 
+                "name": "Hishi Akebono (Who Wants the First Bite?)", 
+                "image": "../assets/images/support-cards/Hishi Akebono (Who Wants the First Bite).png"
+            },
+            { 
+                "name": "Mejiro Palmer (Go Ahead and Laugh)", 
+                "image": "../assets/images/support-cards/Mejiro Palmer (Go Ahead and Laugh).png"
+            },
+            { 
+                "name": "Marvelous Sunday (A MORE MARVELOUS WORLD! ☆)", 
+                "image": "../assets/images/support-cards/Marvelous Sunday (A MORE MARVELOUS WORLD! ☆).png"
+            },
+            { 
+                "name": "Meisho Doto (Fighting for Fortune)", 
+                "image": "../assets/images/support-cards/Meisho Doto (Fighting for Fortune).png"
+            },
+            { 
+                "name": "Yukino Bijin (City Girl 101)", 
+                "image": "../assets/images/support-cards/Yukino Bijin (City Girl 101).png"
+            }
+        ]
+    },
+    {
+        "tier": "C",
+        "members":
+        [
+            { 
+                "name": "Gold Ship (That Time I Became the Strongest)", 
+                "image": "../assets/images/support-cards/Gold Ship (That Time I Became the Strongest).png"
+            },
+            { 
+                "name": "Gold Ship (Breakaway Battleship)", 
+                "image": "../assets/images/support-cards/Gold Ship (Breakaway Battleship).png"
+            },
+            { 
+                "name": "Winning Ticket (Full-Blown Tantrum)", 
+                "image": "../assets/images/support-cards/Winning Ticket (Full-Blown Tantrum).png"
+            },
+            { 
+                "name": "Air Shakur (7 More Centimeters)", 
+                "image": "../assets/images/support-cards/Air Shakur (7 More Centimeters).png"
+            },
+            { 
+                "name": "Winning Ticket (BNWinner!)", 
+                "image": "../assets/images/support-cards/Winning Ticket (BNWinner!).png"
+            },
+            { 
+                "name": "Nice Nature (It's Just Water)", 
+                "image": "../assets/images/support-cards/Nice Nature (It's Just Water).png"
+            },
+            { 
+                "name": "Sasami Anshinzawa (This Might Sting!)", 
+                "image": "../assets/images/support-cards/Sasami Anshinzawa (This Might Sting!).png"
             }
         ]
     }
