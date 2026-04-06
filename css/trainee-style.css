@@ -221,7 +221,7 @@ header {
 /* BADGES DE TIER */
 .tier-badge {
     padding: 6px 15px;
-    border-radius: 8px;
+    border-radius: 4px;
     color: white;
     font-weight: 900;
     font-style: italic;
@@ -232,6 +232,7 @@ header {
 .tier-badge.ss { background-color: #ff4d4d; }
 .tier-badge.s  { background-color: #ffae42; }
 .tier-badge.a  { background-color: #4da6ff; }
+.tier-badge.b  { background-color: green;}
 
 /* FOOTER */
 .main-footer {
