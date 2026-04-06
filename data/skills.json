@@ -52,7 +52,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase acceleration on a straight.",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -60,7 +60,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly Increase acceleration on a straight.",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -68,7 +68,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase maneuverability when the way ahead is blocked in the last spurt.",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -76,7 +76,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase maneuverability when the way ahead is blocked in the last spurt.",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
         {
@@ -84,7 +84,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase ability to go to the front early-race. (Front Runner)",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -92,7 +92,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase ability to go to the front early-race. (Front Runner)",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -132,7 +132,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase acceleration after activating many skills early-race.",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -140,7 +140,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase ability to keep the lead on the final corner. (Front Runner)",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -148,7 +148,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase ability to keep the lead on the final corner. (Front Runner)",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"
     },
     {
@@ -220,7 +220,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase acceleration on a corner with masterful turning.",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"   
     },
     {
@@ -228,7 +228,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase acceleration on a corner with masterful turning.",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"   
     },
     {
@@ -236,7 +236,7 @@
         "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase acceleration late-race. (Late Surger)",
         "rarity": "Rare",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"   
     },
     {
@@ -244,7 +244,7 @@
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase acceleration late-race. (Late Surger)",
         "rarity": "Normal",
-        "type": "Acceleration",
+        "type": "Speed",
         "effect": "Positive"   
     },
     {
@@ -307,54 +307,6 @@
         "name": "Calm in a Crowd",
         "image": "../assets/images/skills/normal-recovery-skill.png",
         "description": "Slightly recover endurance when surrounded mid-race.",
-        "rarity": "Normal",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Race Planner",
-        "image": "../assets/images/skills/rare-recovery-skill.png",
-        "description": "Decrease fatigue mid-race.",
-        "rarity": "Rare",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Preferred Position",
-        "image": "../assets/images/skills/normal-recovery-skill.png",
-        "description": "Slightly decrease fatigue mid-race.",
-        "rarity": "Normal",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Race Planner",
-        "image": "../assets/images/skills/rare-recovery-skill.png",
-        "description": "Decrease fatigue mid-race.",
-        "rarity": "Rare",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Preferred Position",
-        "image": "../assets/images/skills/normal-recovery-skill.png",
-        "description": "Slightly decrease fatigue mid-race.",
-        "rarity": "Normal",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Iron Will",
-        "image": "../assets/images/skills/rare-recovery-skill.png",
-        "description": "Recover endurance when the way ahead is jammed early-race or mid-race.",
-        "rarity": "Rare",
-        "type": "Recovery",
-        "effect": "Positive"   
-    },
-    {
-        "name": "Preferred Position",
-        "image": "../assets/images/skills/normal-recovery-skill.png",
-        "description": "Slightly recover endurance when the way ahead is jammed early-race or mid-race.",
         "rarity": "Normal",
         "type": "Recovery",
         "effect": "Positive"   
