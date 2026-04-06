@@ -33,7 +33,7 @@ function loadTierlist(fileName){
                 const tierRow = document.createElement('tr');
 
                 tierRow.innerHTML = `
-                    <td>${element.tier}</td>
+                    <td class="tier-${element.tier.toLowerCase()}">${element.tier}</td>
                     <td class="tier-members"></td>`;
 
                 const members = tierRow.querySelector('.tier-members');

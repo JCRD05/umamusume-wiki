@@ -100,7 +100,7 @@ header {
 
 .info-card {
     background: white;
-    border: 6px solid #ff69b4;
+    border: 6px solid #76c900;
     border-radius: 45px;
     padding: 50px 30px 40px 30px;
     position: relative;
@@ -111,7 +111,7 @@ header {
     position: absolute;
     top: -25px;
     z-index: 2;
-    background: #ff69b4;
+    background: #76c900;
     padding: 10px 25px;
     border-radius: 30px;
 }
@@ -174,7 +174,6 @@ header {
 
 #tierlist-body tr td:first-child {
     border-radius: 50px 0 0 50px;
-    background-color: #ff69b4;
     color: white;
     font-weight: 900;
     font-size: 1.8rem;
@@ -182,6 +181,28 @@ header {
     width: 80px;
     border: none;
 }
+
+.tier-ss {
+    background-color: #ff6161;
+}
+
+.tier-s {
+    background-color: #ffb84e; 
+}
+
+.tier-a {
+    background-color: #718fac; 
+}
+
+.tier-b {
+    background-color: #8d75c2;
+}
+
+.tier-c {
+    background-color: #90c485;
+}
+
+
 
 #tierlist-body tr td:last-child {
     background-color: #f0f0f0;
@@ -219,13 +240,13 @@ header {
 
 .trainee-image:hover {
     transform: scale(1.15) translateY(-5px);
-    border-color: #ff69b4;
+    border-color: #b45ca8;
     z-index: 10;
 }
 
 .support-image:hover {
     transform: scale(1.15) translateY(-5px);
-    border-color: #ff69b4;
+    border-color: #76c900;
     z-index: 10;
 }
 
@@ -257,6 +278,6 @@ header {
 }
 
 .tab.active {
-    background-color: #ff69b4;
+    background-color: #b45ca8;
     color: white;
 }
