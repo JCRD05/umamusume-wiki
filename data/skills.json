@@ -1,42 +1,410 @@
 [
     {
         "name": "Escape Artist",
-        "image": "../assets/images/skills/gold-speed-skill.png",
+        "image": "../assets/images/skills/rare-speed-skill.png",
         "description": "Increase ability to go to the front mid-race. (Front Runner)",
         "rarity": "Rare",
         "type": "Speed",
-        "effect": "Possitive"
+        "effect": "Positive"
+    },
+    {
+        "name": "Fast-Paced",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase ability to go to the front mid-race. (Front Runner)",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"
+    },    
+    {
+        "name": "Beeline Burst",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase velocity on a straight.",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Straightaway Adept",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase velocity on a straight.",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Its on!",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase velocity when passing another runner mid-race.",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Ramp Up",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase velocity when passing another runner mid-race.",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Rushing Gale!",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
+        "description": "Increase acceleration on a straight.",
+        "rarity": "Rare",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "Straightaway Acceleration",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly Increase acceleration on a straight.",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "No Stopping Me!",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
+        "description": "Increase maneuverability when the way ahead is blocked in the last spurt.",
+        "rarity": "Rare",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "Nimble Navigator",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase maneuverability when the way ahead is blocked in the last spurt.",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+        {
+        "name": "Taking the lead",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
+        "description": "Increase ability to go to the front early-race. (Front Runner)",
+        "rarity": "Rare",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "Early Lead",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase ability to go to the front early-race. (Front Runner)",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "Top Runner",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
     },
     {
         "name": "Leader's Pride",
-        "image": "../assets/images/skills/gold-speed-skill.png",
+        "image": "../assets/images/skills/normal-speed-skill.png",
         "description": "Slightly increase ability to pass or challenge another runner early-race or mid-race. (Front Runner)",
         "rarity": "Normal",
         "type": "Speed",
-        "effect": "Possitive"
+        "effect": "Positive"
+    },    
+    {
+        "name": "In Body and Mind",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase velocity in the last spurt.",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Homestretch Haste",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase velocity in the last spurt.",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"
     },
     {
         "name": "Groundwork",
         "image": "../assets/images/skills/normal-acceleration-skill.png",
         "description": "Slightly increase acceleration after activating many skills early-race.",
         "rarity": "Normal",
-        "type": "Speed",
-        "effect": "Possitive"
+        "type": "Acceleration",
+        "effect": "Positive"
     },
     {
         "name": "Unrestrained",
-        "image": "../assets/images/skills/gold-acceleration-skill.png",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
         "description": "Increase ability to keep the lead on the final corner. (Front Runner)",
         "rarity": "Rare",
-        "type": "Speed",
-        "effect": "Possitive"
+        "type": "Acceleration",
+        "effect": "Positive"
+    },
+    {
+        "name": "Final Push",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase ability to keep the lead on the final corner. (Front Runner)",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"
     },
     {
         "name": "Professor of Curvature",
-        "image": "../assets/images/skills/gold-speed-skill.png",
+        "image": "../assets/images/skills/rare-speed-skill.png",
         "description": "Increase velocity on a corner with skilled turning.",
         "rarity": "Rare",
         "type": "Speed",
-        "effect": "Possitive"
+        "effect": "Positive"
+    },
+    {
+        "name": "Speed Star",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Increase ability to break out of the pack on the final corner. (Pace Chaser)",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Prepared to Pass",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Slightly increase ability to break out of the pack on the final corner. (Pace Chaser)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Corner Adept",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Increase velocity on a corner with skilled turning.",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Fast & Furious",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase velocity mid-race. (Late Surger)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Position Pilfer",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase velocity mid-race. (Late Surger)",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Rising Dragon",
+        "image": "../assets/images/skills/rare-speed-skill.png",
+        "description": "Increase velocity mid-race. (Late Surger)",
+        "rarity": "Rare",
+        "type": "Speed",
+        "effect": "Positive"
+    },
+    {
+        "name": "Outer Swell",
+        "image": "../assets/images/skills/normal-speed-skill.png",
+        "description": "Slightly increase velocity when passing another runner on the outside on the final corner. (Late Surger)",
+        "rarity": "Normal",
+        "type": "Speed",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Corner Connoiseur",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
+        "description": "Increase acceleration on a corner with masterful turning.",
+        "rarity": "Rare",
+        "type": "Acceleration",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Corner Acceleration",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase acceleration on a corner with masterful turning.",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"   
+    },
+    {
+        "name": "On Your Left!",
+        "image": "../assets/images/skills/rare-acceleration-skill.png",
+        "description": "Increase acceleration late-race. (Late Surger)",
+        "rarity": "Rare",
+        "type": "Acceleration",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Slick Surge",
+        "image": "../assets/images/skills/normal-acceleration-skill.png",
+        "description": "Slightly increase acceleration late-race. (Late Surger)",
+        "rarity": "Normal",
+        "type": "Acceleration",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Swinging Maestro",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance on a corner with efficient turning.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Corner Recovery",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance on a corner with efficient turning.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Breath of Fresh Air",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance on a straight.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Straightaway Recovery",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance on a straight.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Indomitable",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance when passed by another runner mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Pace Strategy",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance when passed by another runner mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Unruffled",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance when surrounded mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Calm in a Crowd",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance when surrounded mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Race Planner",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Decrease fatigue mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Preferred Position",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly decrease fatigue mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Race Planner",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Decrease fatigue mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Preferred Position",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly decrease fatigue mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Iron Will",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance when the way ahead is jammed early-race or mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Preferred Position",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance when the way ahead is jammed early-race or mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Iron Will",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Recover endurance when the way ahead is jammed early-race or mid-race.",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Lay Low",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly recover endurance when the way ahead is jammed early-race or mid-race.",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Race Planner",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Decrease fatigue mid-race. (Pace Chaser)",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Preferred Position",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly decrease fatigue mid-race. (Pace Chaser)",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Calm and Collected",
+        "image": "../assets/images/skills/rare-recovery-skill.png",
+        "description": "Decrease fatigue upon approaching mid-race. (Pace Chaser)",
+        "rarity": "Rare",
+        "type": "Recovery",
+        "effect": "Positive"   
+    },
+    {
+        "name": "Stamina to Spare",
+        "image": "../assets/images/skills/normal-recovery-skill.png",
+        "description": "Slightly decrease fatigue upon approaching mid-race. (Pace Chaser)",
+        "rarity": "Normal",
+        "type": "Recovery",
+        "effect": "Positive"   
     }
 ]
